@@ -1,21 +1,5 @@
-<!DOCTYPE
- html {
-    height: 100%;
-  }
-  body {
-    min-height: 100%;
-    display: table;
-    width: 100%;
-  }
-  .content {
-    display: table-row;
-    height: 100%;
-    padding: 20px;
-  }
-  .footer {
-    padding: 20px;
-  }>
-  </html>
+<!DOCTYPE html>
+<html>
 <head>
 <title>aesthetiscape</title>
 <style>
@@ -39,10 +23,19 @@ style="max-width: 100%;">
 I haven't written an about section yet, but this is where that will go.
 <br>
 
-<footer>
-    <center>
-<img src="https://i.imgur.com/3YKUlPF.png"
-style="max-width: 100%;">
-    </center>
-</footer>
+<style>
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: red;
+      color: white;
+      text-align: center;
+    }
+    </style>
 
+<div class="footer">
+
+<p><img src="https://i.imgur.com/3YKUlPF.png"
+style="max-width: 100%;">
