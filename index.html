@@ -2,50 +2,61 @@
 <html>
 
 <head>
-<title>aesthetiscape</title>
-<style>
-body {
-background-image: url("https://i.imgur.com/uRbNrN1.png");
-background-repeat: repeat;
-background-size: 100px 100px;
-}
-</style>
-</head>
-
-<center>
-<img src="https://i.imgur.com/l3Fq7w0.png"
-style="width: 100%;">
-
-<br>
-<nav>
-<a href="gallery.html">gallery</a> 
-<a href="shop.html">shop</a> 
-<a href="about.html">about</a>
-</nav>
-<br>
-
-<h1>Welcome to the dessert of the real...</h1>
-</center>
-<br>
-Making this site has been a fun task, I hope I can add to it as I develop more skills and make more art!
-<br><br>
-<img src="https://i.imgur.com/vJ3nScY.gif"
-  style="max-width: 100%;">
-</body>
-
-<style>
+  <title>
+    aesthetiscape
+  </title>
+    <style>
+    html, body {
+      background-image: url("https://i.imgur.com/uRbNrN1.png");
+      background-repeat: repeat;
+      background-size: 100px 100px;
+    }
+    .body {
+      display: flex;
+      flex-direction: column;
+    }
+    .content {
+      flex: 1 0 auto;
+    }
     .footer {
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      text-align: center;
+      flex-shrink: 0;
     }
     </style>
+</head>
 
-<element class="footer">
+<img src="https://i.imgur.com/l3Fq7w0.png"
+style= "width: 100%;"
+float= "left">
 
-<p><img src="https://i.imgur.com/3YKUlPF.png"
-style="max-width: 100%;"></p>
-</element>
+<br>
+
+<nav>
+  <a href="gallery.html">gallery</a> 
+  <a href="shop.html">shop</a> 
+  <a href="about.html">about</a>
+</nav>
+
+<div class="body">
+  <br>
+  <div class="content">
+    <h1>
+      Welcome to the dessert of the real...
+    </h1>
+    </center>
+    <p>
+      Making this site has been a fun task, I hope I can add to it as I develop more skills and make more art!
+    </p>
+    <img src="https://i.imgur.com/vJ3nScY.gif"
+      style="max-width: 100%;">
+
+  </div>
+</div>
+</body>
+
+<div class="footer">
+  <p>
+    <img src="https://i.imgur.com/3YKUlPF.png"
+    style="max-width: 100%;">
+  </p>
+</div>
 </html>
