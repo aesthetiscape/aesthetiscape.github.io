@@ -13,4 +13,5 @@ html, body {
 .footer {
 flex-shrink: 0;
 max-width: 100%;
+align: center;
   }
