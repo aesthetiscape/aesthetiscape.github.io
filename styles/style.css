@@ -17,9 +17,21 @@ art piece style
         XXXXX. XXXXX.</p>
         <br> 
 */
-.artPiece {
-    align-items: center;
-    width: 100%;
-    height: 100%;
+
+.gallery {
+    margin: 0 auto; 
+    width: 100%; 
+    text-align: center; 
+    display: block;
+}
+
+.piece {
+    text-align: center; 
+    width: 100%; 
+    height: 100%; 
+    max-width: 1080px;
+}
+
+.att {
     text-align: center;
 }
