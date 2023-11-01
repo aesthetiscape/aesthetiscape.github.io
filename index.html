@@ -7,13 +7,8 @@
         content="width=420px, initial-scale=1.0">
     <style>
     .col-1 {width: 50%;}
-        @media only screen
-            and (max-device-width: 768px) {
-                [class="col-1"] {
-                    width: 100%;
-                }
-            }
     </style>
+    
     <title>
         aesthetiscape
     </title>
@@ -38,7 +33,14 @@
     <br>
 </div>
 
-<body style="background-image: url(images/aesthetiscape-background.png)">
+<body style="background-image: url(images/aesthetiscape-background.png)"
+@media only screen
+and (max-device-width: 768px) {
+    [class="col-1"] {
+        width: 100%;
+    }
+}
+>
     <div id="gallery" style="
     display: block; 
     margin: auto; 
