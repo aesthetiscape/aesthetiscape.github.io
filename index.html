@@ -24,12 +24,17 @@
 
     <style>
         .logo {
+            z-index: 2;
             margin-top: 30px;
             margin-bottom: 10px;
-            margin-left: 0px;
-            margin-right: 0px;
-            width: 420px;
+            margin-left: 25px;
+            margin-right: 25px;
+            width: 300px;
             max-width: 100%;
+        }
+
+        .fluff-box {
+            z-index: 1;
 
         }
 
@@ -59,6 +64,7 @@
 
     <style>
         .gallery {
+            z-index: 1;
             width: 90%;
             padding: auto;
             margin: auto;
@@ -89,6 +95,12 @@
             max-width: fit-content;
             border-style: inset;
         }
+
+        .back-img {
+            z-index: 0;
+            background-image: url(images/aesthetiscape-background.png);
+            background-size: auto;
+        }
     </style>
 
     <title>
@@ -97,7 +109,7 @@
 
 </head>
 
-<body style="background-image: url(images/aesthetiscape-background.png)">
+<body class="back-img">
 
     <div id="wrapper">
         <div id="top"></div>
@@ -106,6 +118,17 @@
             <img src="images/aesthetiscape-logo.png" class="logo">
         </div>
     </div>
+
+    <img src="images/peace.gif" style="
+    max-width: 50px;
+    position:absolute;
+    top: 5px;
+    left: 5px;">
+    <img src="images/peace.gif" style="
+    max-width: 50px;
+    position:absolute;
+    top: 5px;
+    right: 5px;">
 
     <div id="gallery" class="gallery">
         <div id="the-descent-of-the-christ">
