@@ -12,6 +12,14 @@
         href="images/aesthetiscape-favicon.png">
 
     <style>
+        @media (max-width: 767px) {
+            .hidden-mobile {
+                display: none;
+            }
+        }
+    </style>
+
+    <style>
         .col-1 {width: 50%;}
 
         @media only screen
@@ -99,6 +107,11 @@
             background-image: url(images/aesthetiscape-background.png);
             background-size: auto;
         }
+
+        #draggable {
+            position: absolute;
+            cursor:grab; 
+        }
     </style>
 
     <title>
@@ -132,6 +145,10 @@
         </div>
     </div>
 
+    <div id="draggable" class="hidden-mobile">
+        <script src="script.js"></script>
+        <img src="images/pet-rock.png" style="width:100px">
+    </div>
 
     <div id="gallery" class="gallery">
         <div id="the-descent-of-the-christ">
