@@ -1,3 +1,4 @@
+//DRAGGABLE IMAGE
 var draggable = document.getElementById('draggable');
 
 var posX = 0,
