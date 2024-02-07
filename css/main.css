@@ -1,6 +1,7 @@
 @media (max-width:767px) {
     .hidden-mobile {
         display: none;
+        image-rendering: pixelated;
     }
 }
 
@@ -10,6 +11,7 @@
 and (max-device-width: 768px) {
     [class="col-1"] {
         width:100%;
+        image-rendering: pixelated;
     }
 }
 
