@@ -74,4 +74,5 @@ img {
     border-style: double;
     padding: 7px;
     background-image: url(../images/cr-background.png);
+    image-rendering: pixelated;
 }

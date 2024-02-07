@@ -12,6 +12,7 @@
     margin: auto;
     margin-top: 10px;
     background-image: url(../images/rgb-thread-light-commission.png);
+    image-rendering: pixelated;
     max-width: fit-content;
     border-style: inset;
 }
