@@ -5,7 +5,8 @@
     }
 }
 
-.col-1 {width: 50%;}
+.col-1 {width: 50%;
+image-rendering: pixelated;}
 
 @media only screen
 and (max-device-width: 768px) {
