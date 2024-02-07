@@ -1,146 +1,28 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <meta 
-        charset="utf-8"
-        name="viewport" 
-        content="width=device-width, initial-scale=1.0">
-    
-    <link 
-        rel="icon" 
-        type="image/png" 
-        href="images/aesthetiscape-favicon.png">
-
-    <style>
-        @media (max-width: 767px) {
-            .hidden-mobile {
-                display: none;
-            }
-        }
-    </style>
-
-    <style>
-        .col-1 {width: 50%;}
-
-        @media only screen
-        and (max-device-width: 768px) {
-            [class="col-1"] {
-                width: 100%;
-            }
-        }
-    </style>
-
-    <style>
-        img {
-            image-rendering: pixelated;
-        }
-
-        .logo {
-            z-index: 2;
-            margin-top: 50px;
-            width: 300px;
-            max-width: 90%;
-        }
-
-        .flex-header {
-            display: flex;
-            z-index: 1;
-
-        }
-
-        #wrapper div {
-            text-align: center;
-            display: block;
-            clear: both;
-        }
-
-        .footer {
-            width: 100%;
-            text-align: center;
-            margin-top: 50px;
-        }
-        
-        .cr {
-            display: block;
-            margin: auto;
-            margin-top: 10px;
-            width: fit-content;
-            height: fit-content;
-            border-style: double;
-            padding: 7px;
-            background-image: url(images/cr-background.png);
-        }
-    </style>
-
-    <style>
-        .gallery {
-            z-index: 1;
-            width: 90%;
-            padding: auto;
-            margin: auto;
-        }
-
-        #gallery div {
-            text-align: center;
-            display: block; 
-            clear: both;
-        }
-
-        #gallery div img {
-            margin-top: 50px;
-            width: 100%;
-            max-width: 500px;
-            border-style: ridge;
-            box-shadow: black;
-            box-shadow: 4px 4px;
-        }
-
-        #gallery div p {
-            text-align: center;
-            display: block;
-            padding: 7px;
-            margin: auto;
-            margin-top: 10px;
-            background-image: url(images/rgb-thread-light.png);
-            max-width: fit-content;
-            border-style: inset;
-        }
-
-        .back-img {
-            z-index: 0;
-            background-image: url(images/aesthetiscape-background.png);
-            background-size: auto;
-            image-rendering: pixelated;
-        }
-
-        #draggable {
-            position: fixed;
-            cursor:grab; 
-        }
-    </style>
-
-    <title>
-        aesthetiscape
-    </title>
-
-</head>
+    <head>
+        <meta charset="utf-8"
+            name="viewport"
+            content="width=device-width, initial-scale=1.0">
+        <title>aesthetiscape</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="icon" 
+            type="image/png" href="images/aesthetiscape-favicon.png">
+    </head>
 
 <body class="back-img">
 
-    <div id="wrapper">
-        <div id="top-home"></div>
-        <div class="flex-header">
-            <div id="logo">
-                <img src="images/aesthetiscape-logo.png" class="logo">
-            </div>
+    <div class="wrapper">
+        <div id="top-index"></div>
+        <div>
+            <img src="images/aesthetiscape-logo.png" class="logo">
         </div>
-    </div>
-
-    <div style="
-    text-align: center;">
-        <a href="archive.html">archive</a>
-        <br>
-        <a href="commission.html">commission</a>
+        <div class="nav">
+            <a href="archive.html">archive</a>
+            <br>
+            <a href="commission.html">commission</a>
+        </div>    
     </div>
 
     <div id="draggable" class="hidden-mobile">
@@ -148,7 +30,7 @@
         <img src="images/pet-rock.png">
     </div>
 
-    <div id="gallery" class="gallery">
+    <div class="gallery">
 
 <!--    NEW POST TEMPLATE
         <div id="XXX">
@@ -233,9 +115,9 @@
 
     <div class="footer">
         <div class="totop">
-            <a href="#top-home">Back to the top.</a>
+            <a href="#top-index">Back to the top.</a>
         </div>
-        <div class="cr">
+        <div class="credit">
             © 2023 Daniel Jorgenson
         </div>
     </div>

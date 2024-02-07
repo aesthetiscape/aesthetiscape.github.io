@@ -1,0 +1,22 @@
+#draggable {
+    position: fixed;
+    cursor:grab; 
+}
+
+.back-img {
+    z-index: 0;
+    background-image: url(../images/aesthetiscape-index-background.png);
+    background-size: auto;
+    image-rendering: pixelated;
+}
+
+.gallery div p {
+    text-align: center;
+    display: block;
+    padding: 7px;
+    margin: auto;
+    margin-top: 10px;
+    background-image: url(../images/rgb-thread-light-index.png);
+    max-width: fit-content;
+    border-style: inset;
+}
