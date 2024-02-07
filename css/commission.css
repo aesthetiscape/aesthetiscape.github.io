@@ -4,7 +4,7 @@
     image-rendering: pixelated;
 }
 
-.gallery div p {
+div.gallery p {
     text-align: center;
     display: block;
     padding: 7px;

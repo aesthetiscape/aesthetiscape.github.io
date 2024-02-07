@@ -20,7 +20,7 @@ img {
     image-rendering: pixelated;
 }
 
-.wrapper div {
+div.wrapper {
     text-align: center;
     display: block;
     clear: both;
@@ -44,13 +44,13 @@ img {
     margin: auto;
 }
 
-.gallery div {
+div.gallery {
     text-align: center;
     display: block; 
     clear: both;
 }
 
-.gallery div img {
+div.gallery img {
     margin-top: 50px;
     width: 100%;
     max-width: 500px;
