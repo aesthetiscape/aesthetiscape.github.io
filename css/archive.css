@@ -1,7 +1,6 @@
 .back-img {
     z-index: 0;
     background-image: url(../images/aesthetiscape-archive-background.png);
-    background-size: auto;
     image-rendering: pixelated;
 }
 
