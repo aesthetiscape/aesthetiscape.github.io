@@ -1,3 +1,10 @@
+.back-img {
+    z-index: 0;
+    background-image: url(../images/aesthetiscape-commission-background.png);
+    background-size: auto;
+    image-rendering: pixelated;
+}
+
 .gallery div p {
     text-align: center;
     display: block;
@@ -7,16 +14,4 @@
     background-image: url(../images/rgb-thread-light-commission.png);
     max-width: fit-content;
     border-style: inset;
-}
-
-.back-img {
-    z-index: 0;
-    background-image: url(../images/aesthetiscape-commission-background.png);
-    background-size: auto;
-    image-rendering: pixelated;
-}
-
-#draggable {
-    position: fixed;
-    cursor:grab; 
 }

@@ -56,17 +56,6 @@ img {
     box-shadow: 4px 4px;
 }
 
-.gallery div p {
-    text-align: center;
-    display: block;
-    padding: 7px;
-    margin: auto;
-    margin-top: 10px;
-    background-image: url(../images/rgb-thread-light.png);
-    max-width: fit-content;
-    border-style: inset;
-}
-
 .footer {
     width: 100%;
     text-align: center;
