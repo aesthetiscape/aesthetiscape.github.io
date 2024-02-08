@@ -1,4 +1,4 @@
-body {
+body.back-img {
     background-image: url(../images/aesthetiscape-index-background.png);
     image-rendering: crisp-edges;
 }
