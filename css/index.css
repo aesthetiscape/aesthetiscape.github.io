@@ -19,11 +19,3 @@ div.gallery p {
     position: fixed;
     cursor:grab; 
 }
-
-.static {
-    position:absolute;
-  }
-  
-  .static:hover {
-    opacity:0;
-  }
