@@ -1,7 +1,7 @@
 @media (max-width:767px) {
     .hidden-mobile {
         display: none;
-        image-rendering: pixelated;
+        image-rendering: crisp-edges;
     }
 }
 
@@ -12,12 +12,12 @@ image-rendering: pixelated;}
 and (max-device-width: 768px) {
     [class="col-1"] {
         width:100%;
-        image-rendering: pixelated;
+        image-rendering: crisp-edges;
     }
 }
 
 img {
-    image-rendering: pixelated;
+    image-rendering: crisp-edges;
 }
 
 div.wrapper {
@@ -74,5 +74,5 @@ div.gallery img {
     border-style: double;
     padding: 7px;
     background-image: url(../images/cr-background.png);
-    image-rendering: pixelated;
+    image-rendering: crisp-edges;
 }

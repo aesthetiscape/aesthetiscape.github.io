@@ -1,8 +1,7 @@
 .back-img {
     z-index: 0;
     background-image: url(../images/aesthetiscape-archive-background.png);
-    background-position: top left;
-    image-rendering: pixelated;
+    image-rendering: crisp-edges;
 }
 
 div.gallery p {
@@ -12,8 +11,7 @@ div.gallery p {
     margin: auto;
     margin-top: 10px;
     background-image: url(../images/rgb-thread-light-archive.png);
-    background-position: top left;
-    image-rendering: pixelated;
+    image-rendering: crisp-edges;
     max-width: fit-content;
     border-style: inset;
 }
