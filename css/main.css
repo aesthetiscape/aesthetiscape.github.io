@@ -1,12 +1,12 @@
 @media (max-width:767px) {
     .hidden-mobile {
         display: none;
-        image-rendering: crisp-edges;
+        image-rendering: pixelated;
     }
 }
 
 img {
-    image-rendering: crisp-edges;
+    image-rendering: pixelated;
 }
 
 div.wrapper {
@@ -63,5 +63,5 @@ div.gallery img {
     border-style: double;
     padding: 7px;
     background-image: url(../images/cr-background.png);
-    image-rendering: crisp-edges;
+    image-rendering: pixelated;
 }

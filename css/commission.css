@@ -1,6 +1,6 @@
 body {
     background-image: url(../images/aesthetiscape-commission-background.png);
-    image-rendering: crisp-edges;
+    image-rendering: pixelated;
 }
 
 div.gallery p {
@@ -10,7 +10,7 @@ div.gallery p {
     margin: auto;
     margin-top: 10px;
     background-image: url(../images/rgb-thread-light-commission.png);
-    image-rendering: crisp-edges;
+    image-rendering: pixelated;
     max-width: fit-content;
     border-style: inset;
 }
