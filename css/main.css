@@ -1,7 +1,6 @@
 @media (max-width:767px) {
     .hidden-mobile {
         display: none;
-        image-rendering: pixelated;
     }
 }
 
