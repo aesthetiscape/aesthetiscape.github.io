@@ -15,9 +15,9 @@ div.wrapper {
 }
 
 .logo {
-    margin-top: 50px;
-    width: 300px;
-    max-width: 90%;
+    margin-top: 0px;
+    width: 90%;
+    max-width: 1000px;
     text-align: center;
 }
 
