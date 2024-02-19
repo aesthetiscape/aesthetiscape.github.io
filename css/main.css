@@ -8,7 +8,8 @@
     font-family: "Sligoil";
     src: 
         local("Sligoil")
-        url(../sligoil-main/fonts/web/Sligoil-Micro.woff2) format("woff2");
+        url(../sligoil-main/fonts/web/Sligoil-Micro.woff2) format("woff2"),
+        url(../sligoil-main/fonts/Sligoil-Micro.otf) format("OpenType");
 }
 
 img {
