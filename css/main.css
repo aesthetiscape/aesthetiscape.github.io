@@ -4,6 +4,13 @@
     }
 }
 
+@font-face {
+    font-family: "Sligoil";
+    src: 
+        local("Sligoil")
+        url(../sligoil-main/fonts/web/Sligoil-Micro.woff2) format("woff2");
+}
+
 img {
     image-rendering: pixelated;
 }
@@ -23,6 +30,10 @@ div.wrapper {
 
 .nav {
     text-align: center;
+}
+
+body {
+    font-family: "Sligoil";
 }
 
 .gallery {
