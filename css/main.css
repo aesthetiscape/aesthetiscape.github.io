@@ -5,6 +5,14 @@
 }
 
 @font-face {
+    font-family: "Young Serif";
+    src: 
+        local("Young Serif")
+        url(../YoungSerif-master/fonts/webfonts/YoungSerif-Regular.woff2) format("woff2"),
+        url(../YoungSerif-master/fonts/otf/YoungSerif-Regular.otf) format("OpenType");
+}
+
+@font-face {
     font-family: "Sligoil";
     src: 
         local("Sligoil")
@@ -34,7 +42,7 @@ div.wrapper {
 }
 
 body {
-    font-family: "Sligoil";
+    font-family: "Young Serif";
 }
 
 .gallery {
@@ -75,4 +83,5 @@ div.gallery img {
     padding: 7px;
     background-image: url(../images/cr-background.png);
     image-rendering: pixelated;
+    font-family: "Sligoil";
 }
