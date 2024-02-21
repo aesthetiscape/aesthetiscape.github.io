@@ -8,16 +8,40 @@
     font-family: "Young Serif";
     src: 
         local("Young Serif")
-        url(../YoungSerif-master/fonts/webfonts/YoungSerif-Regular.woff2) format("woff2"),
-        url(../YoungSerif-master/fonts/otf/YoungSerif-Regular.otf) format("OpenType");
+        url(../fonts/YoungSerif-master/fonts/webfonts/YoungSerif-Regular.woff2) format("woff2"),
+        url(../fonts/YoungSerif-master/fonts/otf/YoungSerif-Regular.otf) format("OpenType");
 }
 
 @font-face {
     font-family: "Sligoil";
     src: 
         local("Sligoil")
-        url(../sligoil-main/fonts/web/Sligoil-Micro.woff2) format("woff2"),
-        url(../sligoil-main/fonts/Sligoil-Micro.otf) format("OpenType");
+        url(../fonts/sligoil-main/fonts/web/Sligoil-Micro.woff2) format("woff2"),
+        url(../fonts/sligoil-main/fonts/Sligoil-Micro.otf) format("OpenType");
+}
+
+@font-face {
+    font-family: "PicNic";
+    src: 
+        local("PicNic")
+        url(../fonts/PicNic-main/fonts/webfonts/PicNic-Regular.woff2) format("woff2")
+        url(../fonts/PicNic-main/fonts/otf/PicNic-Regular.otf) format("OpenType");
+}
+
+@font-face {
+    font-family: "Basteleur Moonlight";
+    src: 
+        local("Basteleur Moonlight")
+        url(../fonts/basteleur-master/fonts/webfonts/Basteleur-Moonlight.woff2) format("woff2"),
+        url(../fonts/basteleur-master/fonts/otf/Basteleur-Moonlight.otf) format("OpenType")
+    ;
+}
+
+@font-face {
+    font-family: "Terminal Grotesque";
+    src: 
+        local("Terminal Grotesque")
+        url(../fonts/Terminal-Grotesque-master/terminal-grotesque_open.otf) format("OpenType");
 }
 
 img {
@@ -39,6 +63,8 @@ div.wrapper {
 
 .nav {
     text-align: center;
+    font-family: "Basteleur Moonlight";
+    font-size: larger;
 }
 
 body {
@@ -54,6 +80,7 @@ body {
 
 div.gallery {
     text-align: center;
+    font-size:large;
     display: block; 
     clear: both;
 }
@@ -61,7 +88,7 @@ div.gallery {
 div.gallery img {
     margin-top: 50px;
     width: 100%;
-    max-width: 500px;
+    max-width: 810px;
     border-style: ridge;
     box-shadow: black;
     box-shadow: 4px 4px;
@@ -83,5 +110,6 @@ div.gallery img {
     padding: 7px;
     background-image: url(../images/cr-background.png);
     image-rendering: pixelated;
-    font-family: "Sligoil";
+    font-family: "PicNic";
+    font-size:x-large;
 }
