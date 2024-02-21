@@ -24,7 +24,7 @@
     font-family: "PicNic";
     src: 
         local("PicNic")
-        url(../fonts/PicNic-main/fonts/webfonts/PicNic-Regular.woff2) format("woff2")
+        url(../fonts/PicNic-main/fonts/webfonts/PicNic-Regular.woff2) format("woff2"),
         url(../fonts/PicNic-main/fonts/otf/PicNic-Regular.otf) format("OpenType");
 }
 
