@@ -44,12 +44,13 @@
         url(../fonts/Terminal-Grotesque-master/terminal-grotesque_open.otf) format("OpenType");
 }
 
-img {
+body {
+    font-family: "Young Serif";
+    text-align: center;
     image-rendering: pixelated;
 }
 
 div.wrapper {
-    text-align: center;
     display: block;
 }
 
@@ -57,7 +58,6 @@ div.wrapper {
     margin-top: 0px;
     width: 100%;
     max-width: 1000px;
-    text-align: center;
     clear: both;
 }
 
@@ -65,24 +65,18 @@ div.wrapper {
     font-family: "Basteleur Moonlight";
     font-size: larger;
     display: flex;
-    justify-content: space-evenly;
     width: 420px;
     margin: auto;
-}
-
-body {
-    font-family: "Young Serif";
+    justify-content: space-evenly;
 }
 
 .gallery {
-    z-index: 1;
     width: 90%;
     padding: auto;
     margin: auto;
 }
 
 div.gallery {
-    text-align: center;
     font-size:large;
     display: block; 
     clear: both;
@@ -99,7 +93,6 @@ div.gallery img {
 
 .footer {
     width: 100%;
-    text-align: center;
     margin-top: 50px;
 }
 
