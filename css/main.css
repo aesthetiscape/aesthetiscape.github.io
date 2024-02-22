@@ -51,7 +51,6 @@ img {
 div.wrapper {
     text-align: center;
     display: block;
-    clear: both;
 }
 
 .logo {
@@ -59,12 +58,16 @@ div.wrapper {
     width: 100%;
     max-width: 1000px;
     text-align: center;
+    clear: both;
 }
 
 .nav {
-    text-align: center;
     font-family: "Basteleur Moonlight";
     font-size: larger;
+    display: flex;
+    justify-content: space-evenly;
+    width: 420px;
+    margin: auto;
 }
 
 body {
