@@ -48,6 +48,8 @@ body {
     font-family: "Young Serif";
     text-align: center;
     image-rendering: pixelated;
+    width: 100%;
+    margin: auto;
 }
 
 div.wrapper {
@@ -65,7 +67,7 @@ div.wrapper {
     font-family: "Basteleur Moonlight";
     font-size: larger;
     display: flex;
-    width: 420px;
+    width: 77%;
     margin: auto;
     justify-content: space-evenly;
 }
