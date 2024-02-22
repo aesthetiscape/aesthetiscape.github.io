@@ -72,6 +72,10 @@ div.wrapper {
     justify-content: space-evenly;
 }
 
+div.nav {
+    justify-content: space-around;
+}
+
 .gallery {
     width: 90%;
     padding: auto;
