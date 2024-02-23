@@ -13,14 +13,6 @@
 }
 
 @font-face {
-    font-family: "Sligoil";
-    src: 
-        local("Sligoil")
-        url(../fonts/sligoil-main/fonts/web/Sligoil-Micro.woff2) format("woff2"),
-        url(../fonts/sligoil-main/fonts/Sligoil-Micro.otf) format("OpenType");
-}
-
-@font-face {
     font-family: "PicNic";
     src: 
         local("PicNic")
@@ -37,60 +29,54 @@
     ;
 }
 
-@font-face {
-    font-family: "Terminal Grotesque";
-    src: 
-        local("Terminal Grotesque")
-        url(../fonts/Terminal-Grotesque-master/terminal-grotesque_open.otf) format("OpenType");
-}
-
 body {
     font-family: "Young Serif";
     text-align: center;
     image-rendering: pixelated;
     width: 100%;
-    margin: auto;
+    margin: 0;
 }
 
-div.wrapper {
+.wrapper {
     display: block;
-}
-
-.logo {
-    margin: auto;
+    margin: 0;
+    padding: 0;
     width: 100%;
     max-width: 1000px;
     clear: both;
 }
 
-.nav {
-    font-family: "Basteleur Moonlight";
-    font-size: larger;
-    display: flex;
-    width: 77%;
-    margin: auto;
-    justify-content: space-evenly;
+.logo {
+    width: 100%;
 }
 
-div.nav {
-    justify-content: space-around;
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    font-family: "Basteleur Moonlight";
+    font-size: larger;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list > * {
+    flex: 1;
 }
 
 .gallery {
-    width: 90%;
-    padding: auto;
-    margin: auto;
-}
-
-div.gallery {
-    font-size:large;
-    display: block; 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: large;
     clear: both;
 }
 
 div.gallery img {
     margin-top: 50px;
-    width: 100%;
+    width: 90%;
     max-width: 810px;
     border-style: ridge;
     box-shadow: black;
