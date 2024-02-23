@@ -38,16 +38,11 @@ body {
 }
 
 .wrapper {
-    display: block;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
     padding: 0;
-    width: 100%;
-    max-width: 1000px;
-    clear: both;
-}
-
-.logo {
-    width: 100%;
+    width: 90%;
 }
 
 .nav-list {
@@ -67,6 +62,7 @@ body {
 .gallery {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -75,7 +71,7 @@ body {
 }
 
 div.gallery img {
-    margin-top: 50px;
+    margin-top: 2em;
     width: 90%;
     max-width: 810px;
     border-style: ridge;
@@ -86,6 +82,8 @@ div.gallery img {
 .footer {
     width: 100%;
     margin-top: 50px;
+    font-size: large;
+    font-family: "Basteleur Moonlight";
 }
 
 .credit {
