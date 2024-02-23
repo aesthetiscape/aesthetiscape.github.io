@@ -37,6 +37,10 @@ body {
     margin: 0;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
