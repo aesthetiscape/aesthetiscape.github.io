@@ -29,16 +29,22 @@
     ;
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 800px) {
+    html, body {
+        overflow-x: hidden;
+    }
+}
+
 body {
     font-family: "Young Serif";
     text-align: center;
     image-rendering: pixelated;
     width: 100%;
     margin: 0;
-}
-
-html, body {
-    overflow-x: hidden;
 }
 
 .wrapper {
