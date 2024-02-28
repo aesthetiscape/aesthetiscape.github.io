@@ -80,13 +80,14 @@ body {
     margin: auto;
     margin-top: 2rem;
     height: 100%;
-    max-width: 100%;
+    min-width: 100%;
 }
 
 .art-piece img {
     display: block;
     max-width: 810px;
     width: 100%;
+    max-height: 810px;
     height: 100%;
     margin: 0;
     border-style: ridge;
