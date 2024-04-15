@@ -35,6 +35,7 @@ html, body {
 
 body {
     font-family: "Young Serif";
+    font-size: large;
     display: block;
     text-align: center;
     image-rendering: pixelated;
