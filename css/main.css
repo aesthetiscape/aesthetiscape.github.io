@@ -2,6 +2,14 @@
     .hidden-mobile {
         display: none;
     }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-list > * {
+        padding-top: .5rem;
+    }
 }
 
 @font-face {
