@@ -49,53 +49,6 @@
     ;
 }
 
-@font-face {
-    font-family: "bianzhidai";
-    src:
-        local("bianzhidai") 
-        url(../fonts/bianzhidai_noBG-Pearl.otf) format("OpenType");
-} 
-
-@font-face {
-    font-family: "FA";
-    src:
-        local("FA") 
-        url(../fonts/FA_GWMZSWKMKO.ttf) format(TrueType);
-} 
-
-@font-face {
-    font-family: "Casa Sans";
-    src:
-        local("Casa Sans") 
-        url(../fonts/casa-sans.ttf) format(TrueType);
-} 
-
-@font-face {
-    font-family: "Sniglet";
-    src:
-        local("Sniglet") 
-        url(../fonts/Sniglet-Regular.otf) format(OpenType);
-} 
-
-@font-face {
-    font-family: "H1N1";
-    src:
-        local("H1N1") 
-        url(../fonts/H1N1.ttf) format(TrueType);
-} 
-
-@font-face {
-    font-family: "Murrx";
-    src:
-        local("Murrx") 
-        url(../fonts/Murrx.ttf) format(TrueType);
-} 
-
-@font-face {
-    font-family: "Equateur";
-    src: url(../fonts/Equateur-Regular.otf) format(OpenType);
-}
-
 html, body {
     scroll-behavior: smooth;
 }
