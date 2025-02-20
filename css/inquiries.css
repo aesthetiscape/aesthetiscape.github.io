@@ -3,6 +3,11 @@ body {
     image-rendering: pixelated;
 }
 
+p {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
 div.gallery p {
     text-align: center;
     display: block;
@@ -19,8 +24,7 @@ div.gallery p {
     justify-content: space-around;
     display: flex;
     flex-direction: column;
-    flex: 1;
-    width: 100%;
+    max-width: 100%;
     padding: 0;
-    margin-top: .5rem;
+    margin-top: 1rem;
 }

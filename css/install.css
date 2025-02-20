@@ -1,0 +1,27 @@
+body {
+    background-image: url(../images/aesthetiscape-install-background.png);
+    image-rendering: pixelated;
+}
+
+div.twoColumn {
+    max-width: 42%;
+    display: inline-block;
+    margin: 1rem;
+}
+
+div.gallery p {
+    text-align: center;
+    display: block;
+    padding: 7px;
+    margin: auto;
+    margin-top: 10px;
+    background-image: url(../images/rgb-thread-light-install.png);
+    image-rendering: pixelated;
+    max-width: fit-content;
+    border-style: inset;
+}
+
+#draggable {
+    position: fixed;
+    cursor:grab; 
+}
