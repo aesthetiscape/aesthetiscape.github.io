@@ -45,6 +45,6 @@ div.gallery p {
     max-width: 50%;
 }
 
-.merchBox img {
+.merchBox > * {
     max-width: 100%;
 }
