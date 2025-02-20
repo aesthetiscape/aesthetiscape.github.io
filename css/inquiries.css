@@ -20,6 +20,14 @@ div.gallery p {
     border-style: inset;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
 .block-container {
     display: flex;
     flex-flow: row wrap;
