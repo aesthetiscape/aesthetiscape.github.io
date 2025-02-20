@@ -3,12 +3,6 @@ body {
     image-rendering: pixelated;
 }
 
-div.twoColumn {
-    max-width: 42%;
-    display: inline-block;
-    margin: 1rem;
-}
-
 div.gallery p {
     text-align: center;
     display: block;
