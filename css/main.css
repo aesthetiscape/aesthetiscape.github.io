@@ -15,6 +15,15 @@
     }
 }
 
+/* FONTS TEMPLATE
+@font-face {
+    font-family: ;
+    src:
+        local("") 
+        url(../fonts/);
+} 
+*/
+
 @font-face {
     font-family: "Young Serif";
     src: 
@@ -38,6 +47,53 @@
         url(../fonts/basteleur-master/fonts/webfonts/Basteleur-Moonlight.woff2) format("woff2"),
         url(../fonts/basteleur-master/fonts/otf/Basteleur-Moonlight.otf) format("OpenType")
     ;
+}
+
+@font-face {
+    font-family: "bianzhidai";
+    src:
+        local("bianzhidai") 
+        url(../fonts/bianzhidai_noBG-Pearl.otf) format("OpenType");
+} 
+
+@font-face {
+    font-family: "FA";
+    src:
+        local("FA") 
+        url(../fonts/FA_GWMZSWKMKO.ttf) format(TrueType);
+} 
+
+@font-face {
+    font-family: "Casa Sans";
+    src:
+        local("Casa Sans") 
+        url(../fonts/casa-sans.ttf) format(TrueType);
+} 
+
+@font-face {
+    font-family: "Sniglet";
+    src:
+        local("Sniglet") 
+        url(../fonts/Sniglet-Regular.otf) format(OpenType);
+} 
+
+@font-face {
+    font-family: "H1N1";
+    src:
+        local("H1N1") 
+        url(../fonts/H1N1.ttf) format(TrueType);
+} 
+
+@font-face {
+    font-family: "Murrx";
+    src:
+        local("Murrx") 
+        url(../fonts/Murrx.ttf) format(TrueType);
+} 
+
+@font-face {
+    font-family: "Equateur";
+    src: url(../fonts/Equateur-Regular.otf) format(OpenType);
 }
 
 html, body {
@@ -110,6 +166,15 @@ div.twoColumn {
     max-width: 42%;
     display: inline-block;
     margin: 1rem;
+}
+
+.note {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 0;
+    margin-top: 1rem;
 }
 
 .footer {
