@@ -65,6 +65,10 @@ body {
     background-color: black;
 }
 
+p {
+    font-size: larger;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
