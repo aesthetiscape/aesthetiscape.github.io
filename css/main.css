@@ -117,6 +117,7 @@ body {
 
 .container {
     display: flex;
+    justify-content: space-around;
     width: 100%;
     height: 100%;
 }
@@ -124,6 +125,7 @@ body {
 .twoColumn {
     max-width: 45%;
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
     margin: auto;
     padding: 0;
