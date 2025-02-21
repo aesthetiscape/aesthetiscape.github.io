@@ -115,10 +115,18 @@ body {
     box-shadow: 4px 4px black;
 }
 
-div.twoColumn {
-    max-width: 42%;
-    display: inline-block;
-    margin: 1rem;
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.twoColumn {
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
 }
 
 .note {
@@ -135,6 +143,12 @@ div.twoColumn {
     margin-top: 50px;
     font-size: large;
     font-family: "Basteleur Moonlight";
+}
+
+.totop > * {
+    display: block;
+    text-align: center;
+    margin: .5rem;
 }
 
 .credit {
