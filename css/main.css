@@ -141,6 +141,7 @@ p {
     flex-direction: column;
     max-width: 90%;
     padding: 0;
+    margin: auto;
     margin-top: 1rem;
 }
 
