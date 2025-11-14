@@ -10,4 +10,12 @@
         display: none;
         flex: 1;
     }
+    
+    .meta-nav {
+        display: flex; 
+        justify-content: space-between; 
+        flex-direction: column; 
+        margin: auto; 
+        margin-right: 0;
+    }
 }
