@@ -1,0 +1,19 @@
+.option-box {
+    flex-direction: row; 
+    flex: 1 auto; 
+    justify-content: space-between; 
+    width: 100%;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.option-1 {
+    max-width: 50%; 
+    text-align: start;
+}
+
+.option-2 {
+    max-width: 50%; 
+    text-align: end;
+    border-left-style: groove;
+}

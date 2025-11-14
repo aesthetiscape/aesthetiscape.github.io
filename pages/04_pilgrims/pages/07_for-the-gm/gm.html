@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilgrims</title>
+    <link rel="stylesheet" type="text/css" href="../../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/pilgrims.css">
+    <link rel="stylesheet" type="text/css" href="../../css/queries.css">
+    <link rel="stylesheet" type="text/css" href="./glossary.css">
+</head>
+
+<body>
+    <header>
+        <span class="logo">
+            <h1 style="margin: 0;">Pilgrims</h1>
+            <sub>a tabletop roleplaying game</sub>
+        </span>
+        <span class="meta-nav">
+            <a style="padding: 1rem; align-items: center;" href="../../../index.html">Back to aesthetiscape</a>
+            <a style="padding: 1rem; " href="../00_pilgrims-home/pilgrims-home.html">Pilgrims home</a>
+        </span>
+    </header>
+
+    <nav>
+        <h2 style="align-self: center;">Navigation</h2>
+        <a class="card" style="margin: .3rem; flex: auto" href="../01_character-creation/character-creation.html">Character Creation</a>
+        <a class="card" style="margin: .3rem;" href="../02_basic-play/basic-play.html">Basic Play</a>
+        <a class="card" style="margin: .3rem;" href="../03_combat/combat.html">Combat</a>
+        <a class="card" style="margin: .3rem;" href="../04_leveling-up/leveling-up.html">Leveling Up</a>
+        <a class="card" style="margin: .3rem;" href="../05_glossary/glossary.html">Glossary</a>
+        <a class="card" style="margin: .3rem; flex: auto;" href="../06_conquest/conquest.html">Conquest</a>
+        <a class="card" style="margin: .3rem; flex: auto;">For the GM</a>
+    </nav>
+
+    <main>
+        <h2 class="card" style="max-width: fit-content;">For the GM</h2>
+        <section class="main-section card" id="passage_of_time">
+            <h3>Passage of Time</h3>
+            <p>The following is a step-by-step flow to resolve one in-game day:</p>
+            <p style="margin-left: 3rem;">1. At the beginning of the day, unless they have a condition that inhibits rest or Stamina restoration, Stamina for all rested characters is restored to its maximum capacity.</p>
+            <p style="margin-left: 3rem;">2. All players who have rested recover Health equal to Xd6 + Vitality modifier, where X is equal to the character's Vitality modifier or 1, whichever is higher.</p>
+            <p style="margin-left: 3rem;">3. All players who have rested recover Psyche equal to Xd6 + Psyche modifier, where X is equal to the character's Psyche modifier or 1, whichever is higher.</p>
+            <p style="margin-left: 3rem;">4. The GM determines weather conditions for the day by rolling on the <a href="../05_glossary/glossary-tables.html#weather">Weather Table</a>.</p>
+            <p style="margin-left: 3rem;">5. The players decide on their course for the day.</p>
+            <p style="margin-left: 3rem;">6. The GM determines encounters, if applicable.</p>
+            <p style="margin-left: 3rem;">7. The GM describes the scenery and any points of interest that the party discovers, asking players for their actions, as required.</p>
+            <p style="margin-left: 3rem;">8. If there is an encounter, follow the steps outlined in <a href="./gm.html#encounter">Encounter</a> below. Once the encounter is resolved, or if there is no encounter, progress to the next step.</p>
+            <p style="margin-left: 3rem;">9. The players have downtime, and then rest. At rest, each player rolls a d100, and if the result is at or below their current Curse total, they experience a Divine Encounter, outlined in the <a href="../02_basic-play/basic-play.html#divine_encounter">Divine Encounter</a> section.</p>
+        </section>
+
+        <section class="main-section card" id="encounter">
+            <h3>Encounter</h3>
+            <p>If the GM is unsure regarding the non-player characters' reaction to the party, they may determine their reaction by rolling 1d6.</p>
+            <table class="mobile-table">
+                <tbody>
+                    <tr>
+                        <th>Roll</th>
+                        <th>Reaction</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Hostile, cannot be reasoned with.</td>
+                    </tr>
+                    <tr>
+                        <td>2-3</td>
+                        <td>Hostile, open to reason.</td>
+                    </tr>
+                    <tr>
+                        <td>4-5</td>
+                        <td>Friendly, but suspicious.</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Friendly, not suspicious.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="desktop-table">
+                <tbody>
+                    <tr>
+                        <th>Roll</th>
+                        <td>1</td>
+                        <td>2-3</td>
+                        <td>4-5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <th>Reaction</th>
+                        <td>Hostile, cannot be reasoned with.</td>
+                        <td>Hostile, open to reason.</td>
+                        <td>Friendly, but suspicious.</td>
+                        <td>Friendly, not suspicious.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>If NPC reaction is known, one of the following happens:</p>
+            <p style="margin-left: 3rem;">1. Both sides wish to talk, the interaction is role-played.</p>
+            <p style="margin-left: 3rem;">2. The players wish to flee, the GM determines whether the non-player characters pursue.</p>
+            <p style="margin-left: 3rem;">3. Combat begins, follow the steps listed below.</p>
+        </section>
+
+        <section class="main-section card">
+            <h3>Combat: Step-by-Step</h3>
+                <p class="editor-note">Text about combat?</p>
+            <h4>Determine Turn Order</h4>
+                <p style="margin-left: 3rem;">1. Party rolls a number of d6 equal to their collective Dexterity Modifier, minimum of 1d6 per player.</p>
+                <p style="margin-left: 3rem;">2. Enemies roll a number of d6 equal to highest Soul Value.</p>
+                <p style="margin-left: 3rem;">3. Highest initiative takes the first turn.</p>
+            <h4>One Round</h4>
+                <p>Party Turn</p>
+                    <p style="margin-left: 3rem;">1. All Party members note their character's current health. They decide on actions, and note Endurance and Psyche spent this round.</p>
+                    <p style="margin-left: 3rem;">2. Party rolls for damage total, each player records Curse accrued.</p>
+                <p>Enemy Turn</p>
+                    <p style="margin-left: 3rem;">1. GM notes Enemy Party health, as well as any Endurance and/or Psyche spent (if an ability is used).</p> 
+                    <p style="margin-left: 3rem;">2. GM rolls for enemy damage total.</p>
+                    <p style="margin-left: 3rem;">3. Party members take turns, in order from lowest to highest Dexterity Score, making <a href="../05_glossary/glossary-terms.html#damage_roll">Damage Rolls</a> until all damage is accounted for.</p>
+                <p>End of Round</p>
+                    <p style="margin-left: 3rem;">1. Conditions Party members or Enemies may have received.</p>
+                    <p style="margin-left: 3rem;">2. Any environmental effects.</p>
+                    <p style="margin-left: 3rem;">3. Ensure Curse has been recorded.</p>
+                    <p style="margin-left: 3rem;">4. Any special scenarios according to the GM's discretion.</p>
+                    <p style="margin-left: 3rem;">5. All characters recover Stamina equal to 2d6 + Stamina Modifier unless a condition inhibits Stamina restoration.</p>
+        </section>
+    </main>
+
+    <footer>
+        <a style="padding: 1rem; align-items: center;" href="../00_pilgrims-home/pilgrims-home.html">Pilgrims Home</a>
+    </footer>
+    
+</body>
+</html>

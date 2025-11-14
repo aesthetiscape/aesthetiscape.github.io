@@ -1,0 +1,23 @@
+.vitality {
+    background-color: lightcoral;
+    border-style: groove;
+    margin: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.stamina {
+    background-color: lightgoldenrodyellow;
+    border-style: groove;
+    margin: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.psyche {
+    background-color: cornflowerblue;
+    border-style: groove;
+    margin: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}

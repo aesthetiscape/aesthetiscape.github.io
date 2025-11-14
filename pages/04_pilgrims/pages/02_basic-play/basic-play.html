@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilgrims</title>
+    <link rel="stylesheet" type="text/css" href="../../../../css/00_main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/pilgrims.css">
+    <link rel="stylesheet" type="text/css" href="../../css/queries.css">
+    <link rel="stylesheet" type="text/css" href="./basic-play.css">
+</head>
+
+<body>
+    <header>
+        <span style="display: flex; flex-direction: column; padding: 1rem;">
+            <h1 style="margin: 0;">Pilgrims</h1>
+            <sub>a tabletop roleplaying game</sub>
+        </span>
+        <span style="display: flex; justify-content: space-between; flex-direction: row; margin: auto; margin-right: 0;">
+            <a style="padding: 1rem; align-items: center;" href="../../../index.html">Back to aesthetiscape</a>
+            <a style="padding: 1rem; " href="../00_pilgrims-home/pilgrims-home.html">Pilgrims home</a>
+        </span>
+    </header>
+
+    <nav>
+        <h2 style="align-self: center;">Navigation</h2>
+        <a class="card" style="margin: .3rem; flex: auto" href="../01_character-creation/character-creation.html">Character Creation</a>
+        <a class="card" style="margin: .3rem;">Basic Play</a>
+        <a class="card" style="margin: .3rem;" href="../03_combat/combat.html">Combat</a>
+        <a class="card" style="margin: .3rem;" href="../04_leveling-up/leveling-up.html">Leveling Up</a>
+        <a class="card" style="margin: .3rem;" href="../05_glossary/glossary.html">Glossary</a>
+        <a class="card" style="margin: .3rem; flex: auto;" href="../06_conquest/conquest.html">Conquest</a>
+        <a class="card" style="margin: .3rem; flex: auto;" href="../07_for-the-gm/gm.html">For the GM</a>
+    </nav>
+
+    <main>
+        <h2 class="card" style="max-width: fit-content;">Basic Play</h2>
+        
+        <section class="main-section card" id="checks">
+            <h3>Checks</h3>
+            <p>Generally a check isn't made unless the attempted action has consequences. Checks are saved for moments of tension, combat, or intrigue.</p>
+            <p>Some actions will require a check to determine whether the character succeeds. This means the player attempting the action will roll dice to determine whether they succeed or fail.</p>
+            <p>A Check is a 2d6 roll. Every Check has several possible modifiers: Difficulty, Capability or Characteristic, and Proficiency. If the result of the roll and added modifiers is equal to or higher than 8, the player succeeds at the check.</p>
+            <p>The Check Table below shows the modifier for each level of difficulty.</p>
+            <h4 style="text-align: center;" id="check_table">Check Table</h4>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Difficulty</th>
+                        <th>Modifier</th>
+                    </tr>
+                    <tr>
+                        <td>Simple</td>
+                        <td>+6</td>
+                    </tr>
+                    <tr>
+                        <td>Easy</td>
+                        <td>+4</td>
+                    </tr>
+                    <tr>
+                        <td>Routine</td>
+                        <td>+2</td>
+                    </tr>
+                    <tr>
+                        <td>Average</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Difficult</td>
+                        <td>-2</td>
+                    </tr>
+                    <tr>
+                        <td>Very Hard</td>
+                        <td>-4</td>
+                    </tr>
+                    <tr>
+                        <td>Formidable</td>
+                        <td>-6</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>When asking for rolls for a check, the GM should have an ability to be applied in mind (i.e. “This is a Dexterity check.”), but players are encouraged to come up with unique ways to use the skills they have to overcome obstacles. If they would like to use a different skill than the GM's default, they may explain their idea for an alternative ability for their character to use. The GM has final authority to determine what kind of check is made and what modifiers apply.</p>
+            <p>Circumstances may provide <a href="../05_glossary/glossary_pages/glossary-terms.html#advantage_disadvantage">advantage or disadvantage</a>.</p>
+        </section>
+
+        <section class="main-section card" id="exploration">
+            <h3>Exploration</h3>
+            <p>When players enter a new area, the GM will describe it in general terms. Players may then tell the GM what actions they would like their character to take.</p>
+            <p>Exploration is not made through rolls; instead, players must ask questions about the location. If a player has a skill that can help them, then they may apply that skill at the GM's discretion. Exploring an area may have many results: finding loot or non-player characters, alerting a group of enemies or locating an item required for a quest, for example.</p>
+        </section>
+
+        <section class="main-section card" id="curse">
+            <h3>Curse</h3>
+            <p>Whenever a character damages another character or causes a negative status effect, they accumulate Curse according to one tenth of the amount of the damage or effect dealt. Curse is also accumulated when in the presence of demons, or while present in the Underworld. Each round of combat during which a demon is present, all players gain .5 Curse. Each day the character is in the Underworld, they gain 10 Curse.</p>
+            <p>Whenever a character falls asleep or becomes unconscious, they roll a d100. If they roll at or below their current level of Curse, the party has a <a href="../05_glossary/glossary_pages/glossary-tables.html#divine_encounter">Divine Encounter</a>.</p>
+            <!-- Should there be stacking debuffs as Curse increases? -->
+
+        </section>
+    </main>
+        
+    <footer>
+        <a style="padding: 1rem; align-items: center;" href="../00_pilgrims-home/pilgrims-home.html">Pilgrims Home</a>
+    </footer>
+</body>
+</html>

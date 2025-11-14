@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilgrims</title>
+    <link rel="stylesheet" type="text/css" href="../../../../css/00_main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/pilgrims.css">
+    <link rel="stylesheet" type="text/css" href="../../css/queries.css">
+    <link rel="stylesheet" type="text/css" href="./leveling-up.css">
+</head>
+
+<body>
+    <header>
+        <span style="display: flex; flex-direction: column; padding: 1rem;">
+            <h1 style="margin: 0;">Pilgrims</h1>
+            <sub>a tabletop roleplaying game</sub>
+        </span>
+        <span style="display: flex; justify-content: space-between; flex-direction: row; margin: auto; margin-right: 0;">
+            <a style="padding: 1rem; align-items: center;" href="../../../index.html">Back to aesthetiscape</a>
+            <a style="padding: 1rem; " href="../00_pilgrims-home/pilgrims-home.html">Pilgrims home</a>
+        </span>
+    </header>
+
+    <nav>
+        <h2 style="align-self: center;">Navigation</h2>
+        <a class="card" style="margin: .3rem; flex: auto" href="../01_character-creation/character-creation.html">Character Creation</a>
+        <a class="card" style="margin: .3rem;" href="../02_basic-play/basic-play.html">Basic Play</a>
+        <a class="card" style="margin: .3rem;" href="../03_combat/combat.html">Combat</a>
+        <a class="card" style="margin: .3rem;">Leveling Up</a>
+        <a class="card" style="margin: .3rem;" href="../05_glossary/glossary.html">Glossary</a>
+        <a class="card" style="margin: .3rem; flex: auto;" href="../06_conquest/conquest.html">Conquest</a>
+        <a class="card" style="margin: .3rem; flex: auto;" href="../07_for-the-gm/gm.html">For the GM</a>
+    </nav>
+
+    <main>
+        <h2 class="card" style="max-width: fit-content;">Leveling Up</h2>
+        <section class="main-section card">
+            <h3>Soul Energy</h3>
+            <p>When destroyed, demons and malevolent entities dissipate into <a href="../05_glossary/glossary_pages/glossary-terms.html#soul_energy">Soul Energy</a>. A character may then choose to spend their turn to capture the energy of the soul. On the turn they are absorbing the soul, that character is unable to move or take additional actions; absorbing the Soul Energy consumes all of their actions.</p>
+            <p>Soul Energy will remain in the place where the demon was destroyed for two turns: the enemy turn and then the party's next turn. If it is not absorbed within that time, then the energy dissipates and is unable to be retrieved. Soul Energy may also be absorbed by other demons, increasing their strength and healing them in combat.</p>
+            <p>If a player with unspent Soul Energy is killed, their current bank of energy is spilled and becomes available to be absorbed by any remaining living characters. Energy that appears in this way are treated as one lump sum, and cannot be split between characters.</p>
+            <p>If two or more characters on the same turn both want to attempt to absorb the same energy, they must make an <a href="../05_glossary/glossary_pages/glossary-terms.html#opposed_check">Opposed Check</a> and add their Dexterity modifier. The winner of this contest absorbs the energy. Participating in this contest counts as a player's action for that turn, and unless otherwise specified, they cannot take another action that turn.</p>
+            <p>When damage is rolled a character absorbing souls will roll 2d6 instead of 1d6. This does not take a damage roll from another character.</p>
+            <p>If a character is wounded while absorbing souls, they are unable to absorb the souls and the souls dissipate and are lost.</p>
+            <p>The player who has captured the spirit records the spirit's <a href="../05_glossary/glossary_pages/glossary-terms.html#soul_value">Soul Value</a> and rolls that many d6, adding the result as temporary health. This temporary bonus lasts until the character rests, and only one such bonus can be obtained at a time.</p>
+            <p>Then, when resting, players may incorporate this power into their character to increase their level. The cost of leveling up increases as characters grow, as indicated in the table below. Levels cannot be progressed incrementally; players must have the total necessary souls to increase their level in their soul bank at one time.</p>
+            <p>An increase to a character's Health Bonus is granted every level. Some levels offer a choice between two options, with each one providing a different approach to increasing Stats. 
+                <!-- If a level is marked “Choice,” players may select one of the two additional level up effects. “Choice” is always followed by “Consequence,” so players are encouraged to look ahead to make a plan for their level path, located in the Index under Level Progression. -->
+            </p>
+        </section>
+
+        <section class="main-section card" id="level_01">
+            <h3>Level One</h3>
+            <div class="flex-container">
+                <p>Soul Cost : 10d6<br>Health Bonus : +1d6</p>
+                <div class="flex-item option-box">
+                    <span class="option-1">
+                        <h4>EMPOWERED</h4>
+                        <p>Roll 2d6. Distribute the total between any Characteristics.</p>
+                    </span>
+                    <span class="option-2">
+                        <h4>SKILLED</h4>
+                        <p>Acquire 1 Skill point and choose one additional Capability to apply Proficiency Score to.</p>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-section card" id="level_02">
+            <h3>Level Two</h3>
+            <div class="flex-container">
+                <p>Soul Cost : 40d6<br>Health Bonus : +1d6<br>Any Characteristic : +1d6</p>
+            </div>
+        </section>
+
+        <section class="main-section card" id="level_03">
+            <h3>Level Three</h3>
+            <div class="flex-container level">
+                <p>Soul Cost : 90d6<br>Health Bonus : +1d6</p>
+                <div class="flex-item option-box">
+                    <span class="option-1">
+                        <h4>If EMPOWERED</h4>
+                        <p>Roll 2d6. Distribute the total between any Characteristics.</p>
+                    </span>
+                    <span class="option-2">
+                        <h4>If SKILLED</h4>
+                        <p>Acquire 1 Skill point and roll 2d6 and distribute the total between 2 Linked Capabilities.</p>
+                    </span>
+                </div>
+        </div>
+        </section>
+
+        <section class="main-section card" id="level_04">
+            <h3>Level Four</h3>
+            <div class="flex-container level">
+                <p>Soul Cost : 160d6<br>Health Bonus : +1d6<br>Any Characteristic : +1d6<br>Proficiency Score : +1</p>
+            </div>
+        </section>
+        
+        <section class="main-section card" id="level_05">
+            <h3>Level Five</h3>
+            <div class="flex-container level">
+                <p>Soul Cost : 250d6<br>+3 Skill Points<br>Choose one additional Capability to apply Proficiency Score to.</p>
+                <div class="flex-item option-box">
+                    <span class="option-1">
+                        <h4>If EMPOWERED</h4>
+                        <p>Roll 3d6 and distribute the total between any Characteristics.</p>
+                    </span>
+                    <span class="option-2">
+                        <h4>If SKILLED</h4>
+                        <p>Roll 2d6 and distribute the total between 2 Unlinked Capabilities.</p>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-section card" id="level_06">
+            <h3>Level Six</h3>
+            <div class="flex-container level">
+                <p>Soul Cost : 360d6<br>Health Bonus : +1d6<br>Roll 2d6 and distribute the total between any Characteristics.</p>
+            </div>
+        </section>
+
+        <section class="main-section card" id="level_07">
+            <h3>Level Seven</h3>
+            <div class="flex-container level">
+                <p>Soul Cost : 490d6<br>Health Bonus : +1d6</p>
+                <div class="flex-item option-box">
+                    <span class="option-1">
+                        <h4>SPECIALIST</h4>
+                        <p>Acquire 3 Skill Points.</p>
+                    </span>
+                    <span class="option-2">
+                        <h4>JACK-OF-ALL</h4>
+                        <p>Roll 3d6 and distribute the total between any Unlinked Capabilities.</p>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-section card">
+            <h3>Level Eight</h3>
+            <div class="flex-container level">
+                <p>Soul Cost : 640d6<br>Health Bonus : +1d6<br>Any Characteristic : +1d6<br>Proficiency Score : +1</p>
+            </div>
+        </section>
+
+        <section class="main-section card">
+            <h3>Level Nine</h3>
+            <div class="flex-container level">
+                <p>Soul Cost : 810d6<br>Health Bonus : +1d6</p>
+                <div class="flex-item option-box">
+                    <span class="option-1">
+                        <h4>If SPECIALIST</h4>
+                        <p>Roll 2d6 and distribute the total between 2 Linked Capabilities. Additionally, double one Capability's Proficiency Bonus.</p>
+                    </span>
+                    <span class="option-2">
+                        <h4>If JACK-OF-ALL</h4>
+                        <p>Roll 3d6 and distribute the total between any Characteristics.</p>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-section card">
+            <h3>Level Ten</h3>
+            <div class="flex-container level">
+                <p>Soul Cost : 1000d6<br>Health Bonus : +1d6<br>Any Characteristic : +1d6<br>Proficiency Score : +1<br>Choose one additional Capability to apply Proficiency Score to.</p>
+            </div>
+        </section>
+
+        <!-- 
+        01 : 10d6
+        02 : 40d6
+        03 : 90d6
+        04 : 160d6
+        05 : 250d6
+        06 : 360d6
+        07 : 490d6
+        08 : 640d6
+        09 : 810d6
+        10 : 1000d6
+        -->
+    </main>
+
+    <footer>
+        <a style="padding: 1rem; align-items: center;" href="../00_pilgrims-home/pilgrims-home.html">Pilgrims Home</a>
+    </footer>
+
+</body>
+</html>

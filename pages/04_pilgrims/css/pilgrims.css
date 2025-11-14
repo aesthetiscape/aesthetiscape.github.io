@@ -1,0 +1,138 @@
+header {
+    max-width: 100%; 
+    margin: 1rem; 
+    display: flex; 
+    flex-direction: row;
+    max-width:100%; 
+    justify-content: space-between; 
+    align-items: start; 
+    padding: 1rem;
+}
+
+.logo {
+    display: flex; 
+    flex-direction: column; 
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.meta-nav {
+    display: flex; 
+    justify-content: space-between; 
+    flex-direction: row; 
+    margin: auto; 
+    margin-right: 0;
+}
+
+body {
+    background-image: url(../images/aesthetiscape-pilgrims-background.png);
+    max-width: 1290px;
+    min-height: 100dvh;
+    background-attachment: fixed;
+}
+
+body,
+html {
+    min-height: 100dvh;
+}
+
+.card {
+    background-color: aliceblue;
+    padding: .5rem;
+    margin-top: 1rem;
+    border-style: outset;
+}
+
+.tab {
+    margin-bottom: 0;
+    border-bottom-style: none;
+    max-width: fit-content;
+}
+
+.tabbed {
+    margin-top: 0;
+    border-top-style: none;
+}
+
+h1 {font-size: xx-large;}
+h2 {font-size: x-large;}
+h3 {font-size: larger;}
+h4 {font-size: large;}
+p {font-size: medium;}
+sub {font-size: small;}
+
+h3,
+h4 {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+main {
+    text-align: start;
+    padding: 1rem;
+    max-width: 900px; 
+    margin: 1rem;
+}
+
+table {
+    display: flex;
+    flex: 1;    
+    justify-content: center;
+}
+
+th, td {
+    padding: .5rem;
+    text-align: center;
+    border-style: groove;
+}
+
+footer {
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 100%;
+}
+
+.main-section {
+    padding: .5rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: start;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+    margin: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-style: groove;
+}
+
+.tab-view {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.editor-note {
+    display: block;
+    margin: auto;
+    max-width: fit-content;
+    padding: 1rem;
+    background-color: yellow;
+    color: red;
+    border-style: groove;    
+    border-color: red;
+}

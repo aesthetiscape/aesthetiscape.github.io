@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilgrims</title>
+    <link rel="stylesheet" type="text/css" href="../../../../../css/00_main.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/pilgrims.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/queries.css">
+    <link rel="stylesheet" type="text/css" href="../glossary.css">
+</head>
+
+<body>
+    <header>
+        <span class="logo">
+            <h1 style="margin: 0;">Pilgrims</h1>
+            <sub>a tabletop roleplaying game</sub>
+        </span>
+        <span class="meta-nav">
+            <a style="padding: 1rem; align-items: center;" href="../../../../index.html">Back to aesthetiscape</a>
+            <a style="padding: 1rem; " href="../../00_pilgrims-home/pilgrims-home.html">Pilgrims home</a>
+        </span>
+    </header>
+
+    <nav>
+        <h2 style="align-self: center;">Navigation</h2>
+        <a class="card" style="margin: .3rem; flex: auto" href="../../01_character-creation/character-creation.html">Character Creation</a>
+        <a class="card" style="margin: .3rem;" href="../../02_basic-play/basic-play.html">Basic Play</a>
+        <a class="card" style="margin: .3rem;" href="../../03_combat/combat.html">Combat</a>
+        <a class="card" style="margin: .3rem;" href="../../04_leveling-up/leveling-up.html">Leveling Up</a>
+        <a class="card" style="margin: .3rem;" href="../../05_glossary/glossary.html">Glossary</a>
+        <a class="card" style="margin: .3rem; flex: auto;" href="../../06_conquest/conquest.html">Conquest</a>
+        <a class="card" style="margin: .3rem; flex: auto;" href="../../07_for-the-gm/gm.html">For the GM</a>
+    </nav>
+
+    <main>
+        <h2 class="card tab" id="weapons">Weapons</h2>
+        <div class="card tabbed">
+            <div>
+                <p><a href="glossary-weapons.html#size">Size</a>: Small / Medium / Large<br>
+                    <sub>Size affects both the Stamina cost of weapon attacks and the damage dealt.</sub></p>
+                <p><a href="glossary-weapons.html#range">Range</a>: Melee / Ranged<br>
+                    <sub>Range doesn't have any effect in combat, unless a character is outside the attack range of the enemy and is using a ranged weapon.</sub></p>
+                <p><a href="glossary-weapons.html#complexity">Complexity</a>: Simple / Advanced<br>
+                    <sub>Advanced weapons may have additional effects and conditions, whereas Simple weapons will just do physical damage according to their size.</sub></p>
+                <p><a href="glossary-weapons.html#quality">Quality</a>: Regular / Reinforced / Broken<br>
+                    <sub>Reinforced weapons will Break instead of being Destroyed if a Break Roll result is 6, whereas Regular weapons will be destroyed.</sub></p>
+                <p><a href="glossary-weapons.html#damage_type">Damage Type</a>: Striking / Slashing / Piercing<br>
+                    <sub>Some enemies may be resistant, or even completely immune, to certain damage types. In these instances, the type of damage a weapon deals may be important. If players are able to come up with a reasonable way to get around these resistances, then the GM should allow them to do so. For example, if the party is facing an enemy that is resistant or immune to slashing and piercing damage, but is affected by blunt damage, a player using a sword may ask to use the hilt instead of the blade.</sub></p>
+                <p><a href="glossary-weapons.html#wielding">Wielding</a>: One-Handed / Two-Handed<br>
+                    <sub>Many weapons may be wielded with two hands. Wielding weapons with two hands may increase damage dealt, but may inhibit other actions.</sub></p>
+            </div>
+        </div>
+
+        <h3 class="card tab" id="size">Size</h3>
+        <div class="card tabbed">
+            <div class="flex-item">
+                <h4>Small</h4>
+                <p>Small weapons cost 1 Stamina per attack and deal 1d6 physical damage based on their type.</p>
+            </div>
+            <div class="flex-item">
+                <h4>Medium</h4>
+                <p>Medium wepons cost 2 Stamina per attack and deal 2d6 physical damage based on their type.</p>
+            </div>
+            <div class="flex-item">
+                <h4>Large</h4>
+                <p>Large weapons cost 3 Stamina per attack and deal 3d6 physical damage based on their type.</p>
+            </div>
+        </div>
+
+        <h3 class="card tab" id="range">Range</h3>
+        <div class="card tabbed">
+            <div class="flex-item">
+                <h4>Melee</h4>
+                <p>Melee weapons are limited to attacking targets in the immediate vicinity of the wielder.</p>
+            </div>
+            <div class="flex-item">
+                <h4>Ranged</h4>
+                <p>Ranged weapons are capable of hitting targets far from the wielder. Due to the way combat is handled, this will only affect attacks made out of combat.</p>
+            </div>
+        </div>
+
+        <h3 class="card tab" id="complexity">Complexity</h3> 
+        <div class="card tabbed">
+            <div class="flex-item">
+                <h4>Simple</h4>
+                <p>Simple weapons are just that: simple. They do not have any additional effects and are limited to dealing physical damage.</p>
+            </div>
+            <div class="flex-item">
+                <h4>Advanced</h4>
+                <p>Advanced weapons may have additional effects such as the ability to inflict conditions or deal non-physical damage, for example.</p>
+            </div>
+        </div>
+
+        <h3 class="card tab" id="quality">Quality</h3>
+        <div class="card tabbed">
+            <div class="flex-item">
+                <h4>Regular</h4>
+                <p>Regular is the most common quality for weapons, and offers no additional benefit.</p>
+            </div>
+            <div class="flex-item">
+                <h4>Reinforced</h4>
+                <p>Reinforced weapons have been altered by a blacksmith to be more resilient in combat. If a reinforced weapon would be destroyed, such as when making <a href="./glossary-terms.html#vigorous_strike">vigorous strikes</a>, it becomes broken instead, and can be repaired by a blacksmith.</p>
+            </div>
+            <div class="flex-item">
+                <h4>Broken</h4>
+                <p>Weapons may become broken in myriad ways. Broken weapons may still be used in a pinch, but deal half damage and run the risk of being destroyed with each attack made. When attacking with a broken weapon, make a <a href="./glossary-terms.html#break_roll">break roll</a> for each attack made.</p>
+            </div>
+            <div class="flex-item">
+                <h4>Destroyed</h4>
+                <p>Weapons that have become destroyed are no longer usable, and cannot be repaired. They should be discarded from the players inventory immediately upon destruction.</p>
+            </div>
+            <div class="flex-item">
+                <h4>Magical</h4>
+                <p>Magical weapons can be used to make <a href="./glossary-terms.html#empowered_strike">empowered strikes</a> in combat without the need to make <a href="./glossary-terms.html#break_roll">break rolls</a>. However, if making <a href="./glossary-terms.html#vigorous_strike">vigorous strikes</a> with Magical weapons, break rolls must still be made.</p>
+            </div>
+        </div>
+
+        <h3 class="card tab" id="damage_type">Damage Type</h3>
+        <div class="card tabbed">
+            <div class="flex-item">
+                <h4>Striking</h4>
+                <p>Striking damage is often most effective against armored enemies, and less effective against unarmored enemies.</p>
+            </div>
+            <div class="flex-item">
+                <h4>Slashing</h4>
+                <p>Slashing damage is often most effective against unarmored enemies, and less effective against armored enemies.</p>
+            </div>
+            <div class="flex-item">
+                <h4>Piercing</h4>
+                <p>Piercing damage offers a middle ground between Striking and Slashing, being generally effective against both armored and unarmored enemies.</p>
+            </div>
+            <div class="flex-item">
+                <h4>Magical damage</h4>
+                <p>Magical weapons offer an effective strategy for weapon wielding characetrs against enemies that are resistant to all types of physical damage.</p>
+            </div>
+        </div>
+
+        <h3 class="card tab" id="wielding">Wielding</h3>
+        <div class="card tabbed">
+            <div class="flex-item">
+                <h4>One-Handed</h4>
+                <p>Wielding a weapon in one hand allows the character's second hand to be free for other uses, such as carrying, interacting with or using an item during combat.</p>
+            </div>
+            <div class="flex-item">
+                <h4>Two-Handed</h4>
+                <p>Wielding a weapon with both hands increases the damage dealt by 1d6, but requires the character to use both hands to hold their weapon. Wielding a weapon this way disallows the ability to interact with most items that turn.</p>
+            </div>
+        </div>
+
+        <h2 class="card tab">Glossary Pages</h2>
+        <div class="card tabbed flex-container">
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-terms.html">Terms</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-tables.html">Tables</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-skills.html">Skills</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-armors.html">Armors</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4>Weapons</h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-spells.html">Spells</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-miracles.html">Miracles</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-conditions.html">Conditions</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-languages.html">Languages</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-npcs.html">NPCs</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-underworld.html">Underworld</a></h4>
+            </span>
+        </div>
+    </main>
+
+    <footer>
+        <a style="padding: 1rem; align-items: center;" href="../../00_pilgrims-home/pilgrims-home.html">Pilgrims Home</a>
+    </footer>
+</body>
+</html>

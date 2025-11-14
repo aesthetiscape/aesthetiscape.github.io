@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/aesthetiscape-archive-background.png);
+    background-image: url(../images/01_assets/aesthetiscape-install-background.png);
     image-rendering: pixelated;
 }
 
@@ -9,8 +9,13 @@ div.gallery p {
     padding: 7px;
     margin: auto;
     margin-top: 10px;
-    background-image: url(../images/rgb-thread-light-archive.png);
+    background-image: url(../images/01_assets/rgb-thread-light-install.png);
     image-rendering: pixelated;
     max-width: fit-content;
     border-style: inset;
+}
+
+#draggable {
+    position: fixed;
+    cursor:grab; 
 }

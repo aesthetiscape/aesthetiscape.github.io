@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilgrims</title>
+    <link rel="stylesheet" type="text/css" href="../../../../../css/00_main.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/pilgrims.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/queries.css">
+    <link rel="stylesheet" type="text/css" href="../glossary.css">
+</head>
+
+<body>
+    <header>
+        <span class="logo">
+            <h1 style="margin: 0;">Pilgrims</h1>
+            <sub>a tabletop roleplaying game</sub>
+        </span>
+        <span class="meta-nav">
+            <a style="padding: 1rem; align-items: center;" href="../../../../index.html">Back to aesthetiscape</a>
+            <a style="padding: 1rem; " href="../../00_pilgrims-home/pilgrims-home.html">Pilgrims home</a>
+        </span>
+    </header>
+
+    <nav>
+        <h2 style="align-self: center;">Navigation</h2>
+        <a class="card" style="margin: .3rem; flex: auto" href="../../01_character-creation/character-creation.html">Character Creation</a>
+        <a class="card" style="margin: .3rem;" href="../../02_basic-play/basic-play.html">Basic Play</a>
+        <a class="card" style="margin: .3rem;" href="../../03_combat/combat.html">Combat</a>
+        <a class="card" style="margin: .3rem;" href="../../04_leveling-up/leveling-up.html">Leveling Up</a>
+        <a class="card" style="margin: .3rem;" href="../../05_glossary/glossary.html">Glossary</a>
+        <a class="card" style="margin: .3rem; flex: auto;" href="../../06_conquest/conquest.html">Conquest</a>
+        <a class="card" style="margin: .3rem; flex: auto;" href="../../07_for-the-gm/gm.html">For the GM</a>
+    </nav>
+
+    <main>
+        <h2 class="card tab" id="terms">Terms</h2>
+        <div class="card tabbed">
+            <div class="flex-item" id="advantage_disadvantage">
+                <h3>Advantage & Disadvantage</h3>
+                <p>If a character has Advantage, when rolling for a check, they will reroll their lowest dice and use the higher result.</p>
+                <p>Similarly, if a character has Disadvantage, when rolling for a check, they will reroll their highest dice and use the lower result.</p>
+            </div>
+
+            <div class="flex-item" id="break_roll">
+                <h3>Break Roll</h3>
+                <p>A Break Roll is a 1d6 roll which is made to determine whether a weapon breaks or is destroyed. When making Break Rolls, roll 1d6 for each Stress Mark on the weapon being used. If the result of a Break Roll is a 6, then the weapon becomes destroyed unless it is Reinforced. If it is Reinforced, then the wepon becomes Broken instead.</p>
+            </div>
+
+            <div class="flex-item" id="curse">
+                <h3>Curse</h3>
+                <p>Curse is the residual negative energy that clings to people and places. If it is not dealt with it will continually build up. Places with strong residual Curse are prime targets for demonic incursions into the overworld, and people with strong residual Curse become weakened and eventually lose themselves to the underworld.</p>
+            </div>
+
+            <div class="flex-item" id="damage_roll">
+                <h3>Damage Roll</h3>
+                <p>A Damage Roll is an Xd6 roll that determines the amount of damage a player is receives for one round of combat. Damage Rolls are made by all party members currently in combat, and are made in order from lowest to highest Dexterity Score.</p>
+                <p>To make a Damage Roll, a player chooses a number of d6 to roll. Unless otherwise specified, players must roll a minimum of 1d6. They make a note of the result and announce it to the table, then the player with the next highest Dexterity Score makes their roll. This continues until all damage being received has been accounted for.</p>
+                <p>Optionally, players may choose to roll more than 1d6 for their damage to take damage for other players. If this happens, they must state which player(s) they are rolling for in addition to their own roll, and how many dice they are rolling. The players whose rolls have been covered in this way do not have to make that number of Damage Rolls.</p>
+                <p>Some Conditions may force players to roll a minimum number of dice greater than 1.</p>
+            </div>
+
+            <div class="flex-item" id="empowered_strike">
+                <h3>Empowered Strike</h3>
+                <p>Spend 1 point of Psyche to imbue the strike with nonphysical damage. Roll 1d6 to determine the additional nonphysical damage.</p>
+                <p>If the weapon is not Magical, tally a Stress Mark for this weapon, then make a Break Roll for each Stress Mark. If the result of one of a Break Roll is a 6, the weapon is destroyed. If the weapon is magical, it cannot be broken by making empowered strikes.</p>
+                <p>If the weapon is Magical, do not tally a Stress Mark, and do not make Break Rolls when making Empowered Strikes.</p>
+            </div>
+
+            <div class="flex-item" id="focus">
+                <h3>Focus</h3>
+                <p>Focus is required for some Spells and Miracles. Unless otherwise specified, players may not have more than one active Focus at once.</p>
+            </div>
+
+            <div class="flex-item" id="linked_capabilites">
+                <h3>Linked Capabilities</h3>
+                <p>Capabilities that are under the same Characteristic.</p>
+                <p>Resilience and Will are Linked by Vitality, Dextierity and Strength are Linked by Stamina and Insight and Intellect are Linked by Psyche.</p>
+            </div>
+
+            <div class="flex-item" id="opposed_check">
+                <h3>Opposed Check</h3>
+                <p>Opposed checks are made when a player is rolling against another character. In an opposed check, all participating players roll 2d6 and add the appropriate modifier. The character with the higher result succeeds. In the event of a tie on an opposed roll, the character with the higher Capability score succeeds.</p>
+            </div>
+
+            <div class="flex-item" id="resist_roll">
+                <h3>Resist Roll</h3>
+                <p>A Resist Roll is made when a player or enemy is attempting to avoid receiving a Condition. To make a Resist Roll, players will roll 2d6 and add the appropriate modifier: Resilience for physical Conditions, or Will for non-physical Conditions. Conditions can be mitigated for one round by spending Psyche.</p>
+                <p>If the result of this roll is higher than the damage they receive during that round, then the Condition is resisted.</p>
+                <p>If the result of this roll is lower than the damage they receive during that round, then the Condition is not resisted, and lasts until it is removed.</p>
+            </div>
+
+            <div class="flex-item" id="soul_energy">
+                <h3>Soul Energy</h3>
+                <p>Soul Energy is the residual essence of souls when a creature is killed. Soul Energy is used by players to level up, but can also be used by demons to gain power and restore health.</p>
+                <p>In order to acquire Soul Energy, a character must spend their action to absorb it.</p>
+            </div>
+            
+            <div class="flex-item" id="soul_value">
+                <h3>Soul Value</h3>
+                <p>An entity's Soul Value is the number of d6 rolled to generate its stats, and determines the number of d6 gained when absorbed for experience or power boosts.</p>
+            </div>
+
+            <div class="flex-item" id="stress_mark">
+                <h3>Stress Mark</h3>
+                <p>A Stress Mark is a tally made whenever a vigiorous strike is made with a weapon, or when an empowered strike is made with a nonmagical weapon. When making Break Rolls, the number of rolls made is equal to the number of Stress Marks on the weapon.</p>
+            </div>
+
+            <div class="flex-item" id="unlinked_capabilities">
+                <h3>Unlinked Capabilites</h3>
+                <p>Any two Capabilites that are not under the same Characteristic are Unlinked.</p>
+                <p>Resilience, Dexterity and Insight for example, are all Unlinked.</p>
+            </div>
+
+            <div class="flex-item" id="vigorous_strike">
+                <h3>Vigorous Strike</h3>
+                <p>Increase the Stamina cost of the attack by 1 point to roll an additional 1d6 when rolling for attack damage. Make a note that you have made a vigorous strike with this weapon (this is called a "Stress Mark"), then make a Break Roll (1d6) for each Stress Mark. If the result of one of these rolls is a 6 and the weapon is not reinforced, apply the damage from the roll, then the weapon is destroyed immediately. If the weapon is reinforced, then make a note that its quality is now Broken.</p>
+            </div>
+        </div>
+
+        <h2 class="card tab">Glossary Pages</h2>
+        <div class="card tabbed flex-container">
+            <span class="flex-item">
+                <h4>Terms</h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-tables.html">Tables</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../">Skills</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-armors.html">Armors</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-weapons.html">Weapons</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-spells.html">Spells</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-miracles.html">Miracles</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-conditions.html">Conditions</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-languages.html">Languages</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-npcs.html">NPCs</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-underworld.html">Underworld</a></h4>
+            </span>
+        </div>
+    </main>
+    
+    <footer>
+        <a style="padding: 1rem; align-items: center;" href="../../00_pilgrims-home/pilgrims-home.html">Pilgrims Home</a>
+    </footer>
+</body>
+</html>

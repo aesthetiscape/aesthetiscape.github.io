@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilgrims</title>
+    <link rel="stylesheet" type="text/css" href="../../../../../css/00_main.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/pilgrims.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/queries.css">
+    <link rel="stylesheet" type="text/css" href="../glossary.css">
+</head>
+
+<body>
+    <header>
+        <span class="logo">
+            <h1 style="margin: 0;">Pilgrims</h1>
+            <sub>a tabletop roleplaying game</sub>
+        </span>
+        <span class="meta-nav">
+            <a style="padding: 1rem; align-items: center;" href="../../../../index.html">Back to aesthetiscape</a>
+            <a style="padding: 1rem; " href="../../00_pilgrims-home/pilgrims-home.html">Pilgrims home</a>
+        </span>
+    </header>
+
+    <nav>
+        <h2 style="align-self: center;">Navigation</h2>
+        <a class="card" style="margin: .3rem; flex: auto" href="../../01_character-creation/character-creation.html">Character Creation</a>
+        <a class="card" style="margin: .3rem;" href="../../02_basic-play/basic-play.html">Basic Play</a>
+        <a class="card" style="margin: .3rem;" href="../../03_combat/combat.html">Combat</a>
+        <a class="card" style="margin: .3rem;" href="../../04_leveling-up/leveling-up.html">Leveling Up</a>
+        <a class="card" style="margin: .3rem;" href="../../05_glossary/glossary.html">Glossary</a>
+        <a class="card" style="margin: .3rem; flex: auto;" href="../../06_conquest/conquest.html">Conquest</a>
+        <a class="card" style="margin: .3rem; flex: auto;" href="../../07_for-the-gm/gm.html">For the GM</a>
+    </nav>
+
+    <main>
+        <h2 class="card tab" id="modifiers">Capability Modifiers</h2>
+        <div class="card tabbed">
+            <table class="mobile-table">
+                <tbody>
+                    <th>Score</th>
+                    <th>Modifier</th>
+                    <tr>
+                        <td>0-2</td>
+                        <td>-2</td>
+                    </tr>
+                    <tr>
+                        <td>-1</td>
+                        <td>3-5</td>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td>6-8</td>
+                    </tr>
+                    <tr>
+                        <td>+1</td>
+                        <td>9-11</td>
+                    </tr>
+                    <tr>
+                        <td>+2</td>
+                        <td>12-14</td>
+                    </tr>
+                    <tr>
+                        <td>+3</td>
+                        <td>15-17</td>
+                    </tr>
+                    <tr>
+                        <td>+4</td>
+                        <td>18-20</td>
+                    </tr>
+                    <tr>
+                        <td>+5</td>
+                        <td>21-23</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="desktop-table">
+                <tbody>
+                    <tr>
+                        <th>Score</th>
+                        <td>0-2</td>
+                        <td>3-5</td>
+                        <td>6-8</td>
+                        <td>9-11</td>
+                        <td>12-14</td>
+                        <td>15-17</td>
+                        <td>18-20</td>
+                        <td>21-23</td>
+                    </tr>
+                    <tr>
+                        <th>Modifier</th>
+                        <td>-2</td>
+                        <td>-1</td>
+                        <td>0</td>
+                        <td>+1</td>
+                        <td>+2</td>
+                        <td>+3</td>
+                        <td>+4</td>
+                        <td>+5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3 class="card tab" id="wound_determination">Wound Determination Table</h3>
+        <div class="card tabbed">
+            <p>Roll 2d6 to determine whether a wound is received.</p>
+            <table class="mobile-table">
+                <tbody>
+                    <tr>
+                        <td>1-4</td>
+                        <td>Roll 1d6 on Wounds Table</td>
+                    </tr>
+                    <tr>
+                        <td>5-8</td>
+                        <td>Character is not Wounded</td>
+                    </tr>
+                    <tr>
+                        <td>9-12</td>
+                        <td>Roll 1d6 on Wounds Table</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="desktop-table">
+                <tbody>
+                    <tr>
+                        <td>1-4</td>
+                        <td>5-8</td>
+                        <td>9-12</td>
+                    </tr>
+                    <tr>
+                        <td>Roll 1d6 on Wounds Table</td>
+                        <td>Character is not Wounded</td>
+                        <td>Roll 1d6 on Wounds Table</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3 class="card tab" id="wound">Wounds Table</h3>
+        <div class="card tabbed">
+            <p>Roll 2d6 to determine where a wound is received.</p>
+            <table class="mobile-table">
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><h4>Head</h4>All checks are made with disadvantage until healed.</td>
+                    </tr>
+                    <tr>
+                        <td>2-3</td>
+                        <td><h4>Arm</h4>All attack rolls are halved until healed.</td>
+                    </tr>
+                    <tr>
+                        <td>4-5</td>
+                        <td><h4>Chest</h4>Stamina cost for all attacks is doubled until healed.</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td><h4>Leg</h4>Roll additional 1d6 for all damage rolls.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="desktop-table">
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2-3</td>
+                        <td>4-5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td><h4>Head</h4>All checks are made with disadvantage until healed.</td>
+                        <td><h4>Arm</h4>All attack rolls are halved until healed.</td>
+                        <td><h4>Chest</h4>Stamina cost for all attacks is doubled until healed.</td>
+                        <td><h4>Leg</h4>Roll additional 1d6 for all damage rolls.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3 class="card tab" id="divine_encounter">Divine Encounter</h3>
+        <div class="card tabbed">
+            <p>In a Divine Encounter, the party cannot attack the divine being.</p>
+            <p>A number of d6s are rolled according to the party's total Curse. Any characters with Curse above zero receive damage during these rolls, and once their Curse is reduced to zero, they cease receiving damage from Divine Encounter rolls.</p>
+            <table class="mobile-table">
+                <tbody>
+                    <tr>
+                        <th>Curse</th>
+                        <th>Xd6</th>
+                    </tr>
+                    <tr>
+                        <td>0-10</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>11-20</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>21-30</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>31-40</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>41-50</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>51-60</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>61-70</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>71-80</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>81-90</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>91-100+</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="desktop-table">
+                <tbody>
+                    <tr>
+                        <th>Curse</th>
+                        <td>0-10</td>
+                        <td>11-20</td>
+                        <td>21-30</td>
+                        <td>31-40</td>
+                        <td>41-50</td>
+                        <td>51-60</td>
+                        <td>61-70</td>
+                        <td>71-80</td>
+                        <td>81-90</td>
+                        <td>91-100</td>
+                    </tr>
+                    <tr>
+                        <th>Xd6</th>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>The encounter continues until all players' Curse total is zero. If a character's health reaches zero, whether their Curse is reduced to zero or not, they die and are sent to the <a href="../../05_glossary/glossary_pages/glossary-underworld.html">Underworld</a>.</p>
+            <p>All party members experience purgation as a group. If a character's Curse reaches zero before their health, they remain alive, their Curse is considered purged.</p>
+        </div>
+
+
+        <h3 class="card tab" id="weather">Weather Table</h3>
+        <div class="card tabbed">
+            <p>Roll 2d6 to determine daily weather.</p>
+            <p>The Starting Weather table can be used to determine initial weather if unsure what weather should be, while the Shifting Weather table can be used to determine how the weather changes when starting a new day.</p>
+            <div class="flex-container" style="justify-content: space-around;">
+                <span style="flex: 1;">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>Roll</th>
+                                <th>Starting Weather</th>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Dangerous Heat</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Humid Heatwave</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Hot and Sunny</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Clear and Sunny</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Warm and Cloudy</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Cool and Cloudy</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Cold and Windy</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>Rain</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Thunderstorm</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>Snow</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>Dangerous Cold</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </span>
+                <span style="flex: 1;">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>Roll</th>
+                                <th>Shifting Weather</th>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Much Hotter</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Warmer</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Drier</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>More Humid</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Less Windy</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Similar</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>More Windy</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>Less Humid</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Wetter</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>Cooler</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>Much Colder</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </span>
+            </div>
+        </div>
+        
+        <h2 class="card tab">Glossary Pages</h2>
+        <div class="card tabbed flex-container">
+            <span class="flex-item">
+                <h4><a href="../../05_glossary/glossary_pages/glossary-terms.html">Terms</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4>Tables</h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../../05_glossary/glossary_pages/glossary-skills.html">Skills</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../../05_glossary/glossary_pages/glossary-armors.html">Armors</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../../05_glossary/glossary_pages/glossary-weapons.html">Weapons</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../../05_glossary/glossary_pages/glossary-spells.html">Spells</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../../05_glossary/glossary_pages/glossary-miracles.html">Miracles</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../../05_glossary/glossary_pages/glossary-conditions.html">Conditions</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../../05_glossary/glossary_pages/glossary-languages.html">Languages</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../../05_glossary/glossary_pages/glossary-npcs.html">NPCs</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../../05_glossary/glossary_pages/glossary-underworld.html">Underworld</a></h4>
+            </span>
+        </div>
+    </main>
+
+    <footer>
+        <a style="padding: 1rem; align-items: center;" href="../../00_pilgrims-home/pilgrims-home.html">Pilgrims Home</a>
+    </footer>
+</body>
+</html>

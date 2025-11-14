@@ -1,0 +1,13 @@
+@media (min-width: 820px) {
+    .mobile-table {
+        display: none;
+        flex: 1;
+    }
+}
+
+@media (max-width: 819px) {
+    .desktop-table {
+        display: none;
+        flex: 1;
+    }
+}

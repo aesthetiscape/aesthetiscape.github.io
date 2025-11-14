@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/aesthetiscape-inquiries-background.png);
+    background-image: url(../images/01_assets/aesthetiscape-inquiries-background.png);
     image-rendering: pixelated;
 }
 
@@ -14,7 +14,7 @@ div.gallery p {
     padding: 7px;
     margin: auto;
     margin-top: 10px;
-    background-image: url(../images/rgb-thread-light-inquiries.png);
+    background-image: url(../images/01_assets/rgb-thread-light-inquiries.png);
     image-rendering: pixelated;
     max-width: fit-content;
     border-style: inset;

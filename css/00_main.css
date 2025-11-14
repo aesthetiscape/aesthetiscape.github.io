@@ -168,7 +168,7 @@ p {
     height: fit-content;
     border-style: double;
     padding: 7px;
-    background-image: url(../images/cr-background.png);
+    background-image: url(../images/01_assets/cr-background.png);
     image-rendering: pixelated;
     font-family: "PicNic";
     font-size:x-large;

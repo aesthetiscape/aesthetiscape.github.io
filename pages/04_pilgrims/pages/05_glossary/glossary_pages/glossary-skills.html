@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilgrims</title>
+    <link rel="stylesheet" type="text/css" href="../../../../../css/00_main.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/pilgrims.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/queries.css">
+    <link rel="stylesheet" type="text/css" href="../glossary.css">
+</head>
+
+<body>
+    <header>
+        <span class="logo">
+            <h1 style="margin: 0;">Pilgrims</h1>
+            <sub>a tabletop roleplaying game</sub>
+        </span>
+        <span class="meta-nav">
+            <a style="padding: 1rem; align-items: center;" href="../../../../index.html">Back to aesthetiscape</a>
+            <a style="padding: 1rem; " href="../../00_pilgrims-home/pilgrims-home.html">Pilgrims home</a>
+        </span>
+    </header>
+
+    <nav>
+        <h2 style="align-self: center;">Navigation</h2>
+        <a class="card" style="margin: .3rem; flex: auto" href="../../01_character-creation/character-creation.html">Character Creation</a>
+        <a class="card" style="margin: .3rem;" href="../../02_basic-play/basic-play.html">Basic Play</a>
+        <a class="card" style="margin: .3rem;" href="../../03_combat/combat.html">Combat</a>
+        <a class="card" style="margin: .3rem;" href="../../04_leveling-up/leveling-up.html">Leveling Up</a>
+        <a class="card" style="margin: .3rem;" href="../../05_glossary/glossary.html">Glossary</a>
+        <a class="card" style="margin: .3rem; flex: auto;" href="../../06_conquest/conquest.html">Conquest</a>
+        <a class="card" style="margin: .3rem; flex: auto;" href="../../07_for-the-gm/gm.html">For the GM</a>
+    </nav>
+
+    <main>
+        <h2 class="card tab" id="skills">Skills</h2>
+        <div class="card tabbed">
+            <p>Skills are divided into two categories: "General" and "Combat." These names should give the player an idea of the intended purpose of the skill; however, players should always be encouraged to play creatively; if a General skill seems useful during combat or a Combat skill could be used outside of a fight, then talk about it with the GM.</p>
+            <p>Cost<br>
+            <sub>Displays the number of skill points needed to acquire the skill. Skill points are spent during downtime.</sub></p>
+            <p>Requirement<br>
+            <sub>Shows a skill's requirement. For almost all skills, a certain threshold for a Characteristic or Capability must be met prior to aqcuiring the skill in question.</sub></p>
+        </div>
+
+        <h3 class="card tab" id="general">General Skills</h3>
+        <div class="card tabbed flex-container">
+            <div>
+                <div class="card flex-item">
+                    <h4>Reading</h4>
+                    <p>Requirement: Intellect Score ≥ 8<br>
+                    Cost: 2 Skill Points</p>
+                    <p>When observing written text in a language you speak, you understand its meaning.</p>
+                </div>
+                <div class="card flex-item">
+                    <h4>Writing</h4>
+                    <p>• Intellect Score ≥ 8<br>
+                    • 2 Skill Points</p>
+                    <p>Given that you have the necessary materials, you are able to write messages in a language you speak.</p>
+                </div>
+                <div class="card flex-item">
+                    <h4>Multilingual</h4>
+                    <p>• Intellect Score ≥ 10<br>
+                    • 3 Skill Points</p>
+                    <p>Choose a language your character does not currently understand. They are now able to speak this language. If they are able to read and write, you may spend one additional skill point to be able to read and write in this language.</p>
+                    <p>Additionally, any time you encounter a new language group, you may spend one skill point to add that language to the list of languages your character speaks, and one additional skill point to gain reading and writing comprehension in that language.</p>
+                    <p><a href="./glossary-languages.html">A list of languages can be found here.</a></p>
+                </div>
+                <div class="card flex-item">
+                    <h4>Runescript</h4>
+                    <p>• Intellect Score ≥ 16<br>
+                    • 4 Skill Points</p>
+                    <p>You are able to comprehend runes and pictographic languages, often used in older magical and religious tomes and scrolls.</p>
+                </div>
+                <div class="card flex-item">
+                    <h4>Herbalism</h4>
+                    <p>• No Capability Requirement<br>
+                    • 2 Skill Points</p>
+                    <p>Given you have herbalist's supplies, you are able to spend thirty minutes creating a potion. The effects of the potion are determined by the ingredients used.</p>
+                </div>
+                <div class="card flex-item">
+                    <h4>Psychic Font</h4>
+                    <p>• Psyche Score ≥ 14<br>
+                    • 3 Skill Points</p>
+                    <p>Through clarity of mind you tap into a reserve of energy and are able to restore 1d6 Psyche.</p>
+                    <p>You may use this skill a number of times per day equal to your Psyche modifier.</p>
+                </div>
+                <div class="card flex-item">
+                    <h4>Twin Mind</h4>
+                    <p>• Psyche Score ≥ 18<br>
+                    • 4 Skill Points</p>
+                    <p>You have trained yourself to offload a portion of mental strain to a willing ally, allowing them to focus for you.</p>
+                    <p>As long as you have a conscious willing ally with available <a href="./glossary-terms.html#focus">Focus</a>, you may Focus on an additional spell or miracle through them. Any spells cast this way cost 1 additional Psyche.</p>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="card tab" id="combat">Combat Skills</h3>
+        <div class="card tabbed"> 
+            <div class="card flex-item">
+                <h4>Simple Weaponry</h4>
+                <p>• Strength OR Dexterity Score ≥ 8<br>
+                • 1 Skill Points</p>
+                <p>Add your proficiency bonus when attacking with Simple Weapons.</p>
+            </div>
+            <div class="card flex-item">
+                <h4>Ranged Weaponry</h4>
+                <p>• Dexterity Score ≥ 10<br>
+                • 2 Skill Points</p>
+                <p>Add your proficiency bonus when attacking with Ranged Weapons.</p>
+            </div>
+            <div class="card flex-item">
+                <h4>Advanced Weaponry</h4>
+                <p>• Intellect Score ≥ 10<br>
+                • 4 Skill Points</p>
+                <p>Add your proficiency bonus when attacking with Advanced Weapons.</p>
+            </div>
+            <div class="card flex-item">
+                <h4>Medium Armor</h4>
+                <p>• Stamina Score ≥ 10<br>
+                • 3 Skill Points</p>
+                <p>You are capable of wearing Medium Armor without a penalty to Stamina.</p>
+            </div>
+            <div class="card flex-item">
+                <h4>Heavy Armor</h4>
+                <p>• Stamina Score ≥ 12<br>
+                • 3 Skill Points</p>
+                <p>You are capable of wearing Heavy Armor without a penalty to Stamina.</p>
+            </div>
+            <div class="card flex-item">
+                <h4>Fast Hands</h4>
+                <p>• Dexterity Score ≥ 10<br>
+                • 2 Skill Points</p>
+                <p>Given that you have a pack or bag, you are able to retrieve one small item from it during your turn in combat without spending Stamina.</p>
+            </div>
+            <div class="card flex-item">
+                <h4>Extra Swing</h4>
+                <p>• Dexterity Score ≥ 12<br>
+                • 3 Skill Points</p>
+                <p>When you use your action to attack with a weapon of Small size, you may make one additional attack with that weapon without expending additional Stamina.</p>
+            </div>
+            <div class="card flex-item">
+                <h4>Extra Action</h4>
+                <p>• Dexterity Score ≥ 20<br>
+                • 4 Skill Points</p>
+                <p>When in combat you may take an additional action on the party's turn.</p>
+            </div>
+            <div class="card flex-item">
+                <h4>Great Strength</h4>
+                <p>• Strength Score ≥ 12<br>
+                • 3 Skill Points</p>
+                <p>When rolling damage with weapons, roll one additional d6.</p>
+            </div>
+            <div class="card flex-item">
+                <h4>Colossal Strength</h4>
+                <p>• Strength Score ≥ 20<br>
+                • 4 Skill Points</p>
+                <p>You can wield two-handed weapons with one hand, and can wield two such weapons this way.</p>
+            </div>
+            <div class="card flex-item">
+                <h4>Psychic Absorption</h4>
+                <p>• Psyche Score ≥ 12<br>
+                • 3 Skill Points</p>
+                <p>Once per round, when you are targeted with a non-physical effect you may roll Xd3, where X is the number of dice rolled for the triggering effect, and add the result to your current Psyche, up to your maximum Psyche.</p>
+                <p>You may use this skill a number of times equal to your Psyche modifier.</p>
+            </div>
+            <div class="card flex-item">
+                <h4>Psychic Surge</h4>
+                <p>• Psyche Score ≥ 20<br>
+                • 4 Skill Points</p>
+                <p>When rolling d6 for non-physical damage or effects, your dice become exploding dice: when you roll a 6, you can roll that die again and add the new result to your total.</p>
+            </div>
+        </div>
+
+        <h3 class="card tab" id="skill-checks">Skill Checks</h3>
+        <div class="card tabbed">
+            <p>Players may make Skill Checks during downtime, provided they have the requisite materials. For example, if a player wishes for their character to learn another language, they must have some material in that language, or someone to teach it to them.</p>
+            <p>Skill Checks are modified progressively in three stages: Difficult, Very Hard, and Formidable. Players may only make one Skill Check per day, and once a player succeeds at all three stages, they acquire the corresponding skill without needing to spend a Skill Point.</p>
+        </div>
+
+        <h2 class="card tab">Glossary Pages</h2>
+        <div class="card tabbed flex-container">
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-terms.html">Terms</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-tables.html">Tables</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4>Skills</h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-armors.html">Armors</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-weapons.html">Weapons</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-spells.html">Spells</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-miracles.html">Miracles</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-conditions.html">Conditions</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-languages.html">Languages</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-npcs.html">NPCs</a></h4>
+            </span>
+            <span class="flex-item">
+                <h4><a href="../glossary_pages/glossary-underworld.html">Underworld</a></h4>
+            </span>
+        </div>
+    </main>
+
+    <footer>
+        <a style="padding: 1rem; align-items: center;" href="../../00_pilgrims-home/pilgrims-home.html">Pilgrims Home</a>
+    </footer>
+</body>
+</html>

@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/aesthetiscape-install-background.png);
+    background-image: url(../images/01_assets/aesthetiscape-index-background.png);
     image-rendering: pixelated;
 }
 
@@ -9,7 +9,7 @@ div.gallery p {
     padding: 7px;
     margin: auto;
     margin-top: 10px;
-    background-image: url(../images/rgb-thread-light-install.png);
+    background-image: url(../images/01_assets/rgb-thread-light-index.png);
     image-rendering: pixelated;
     max-width: fit-content;
     border-style: inset;

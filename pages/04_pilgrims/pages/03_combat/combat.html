@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilgrims</title>
+    <link rel="stylesheet" type="text/css" href="../../../../css/00_main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/pilgrims.css">
+    <link rel="stylesheet" type="text/css" href="../../css/queries.css">
+    <link rel="stylesheet" type="text/css" href="./combat.css">
+</head>
+
+<body>
+    <header>
+        <span style="display: flex; flex-direction: column; padding: 1rem;">
+            <h1 style="margin: 0;">Pilgrims</h1>
+            <sub>a tabletop roleplaying game</sub>
+        </span>
+        <span style="display: flex; justify-content: space-between; flex-direction: row; margin: auto; margin-right: 0;">
+            <a style="padding: 1rem; align-items: center;" href="../../../index.html">Back to aesthetiscape</a>
+            <a style="padding: 1rem; " href="../00_pilgrims-home/pilgrims-home.html">Pilgrims home</a>
+        </span>
+    </header>
+
+    <nav>
+        <h2 style="align-self: center;">Navigation</h2>
+        <a class="card" style="margin: .3rem; flex: auto" href="../01_character-creation/character-creation.html">Character Creation</a>
+        <a class="card" style="margin: .3rem;" href="../02_basic-play/basic-play.html">Basic Play</a>
+        <a class="card" style="margin: .3rem;">Combat</a>
+        <a class="card" style="margin: .3rem;" href="../04_leveling-up/leveling-up.html">Leveling Up</a>
+        <a class="card" style="margin: .3rem;" href="../05_glossary/glossary.html">Glossary</a>
+        <a class="card" style="margin: .3rem; flex: auto;" href="../06_conquest/conquest.html">Conquest</a>
+        <a class="card" style="margin: .3rem; flex: auto;" href="../07_for-the-gm/gm.html">For the GM</a>
+    </nav>
+
+    <main>
+        <h2 class="card" style="max-width: fit-content;">Combat</h2>
+        
+        <section class="main-section card" id="turn_order">
+            <h3>Turn Order</h3>
+            <p>In combat, the players act as one group, known as the Party and the enemies act as the second group. To determine turn order, the Party rolls Xd6 where X is their collective Dexterity Modifier, minimum of 1d6 per player. The enemy group determines their initiative by rolling Xd6 where X is the highest <a href="../05_glossary/glossary_pages/glossary-terms.html#soul_value">Soul Value</a>, and the higher of the results goes first.</p>
+        </section>
+
+        <section class="main-section card" id="rounds">
+            <h3>Rounds</h3>
+            <p>Combat consists of Rounds, and each round has two turns: the Party turn and the Enemy turn. Conditions, environmental effects, Curse accrual, andother effects such as Stamina regeneration all occur at the end of the Round.</p>
+        </section>
+
+        <section class="main-section card" id="party-turn">
+            <h3>Party Turn</h3>
+            <p>Each player notes their Health, Stamina and Psyche at the start of the Round, then decides what they wish to do. Once all Party members have decided on their action, they roll for effects. Within the party, there is no turn order; all combat actions are resolved as a group.</p>
+            <p>During the party's turn, players have several options for their actions in combat. Attacking the enemy to reduce their health pool, interacting with objects, trying to negotiate, etc.</p>
+            <h4>Weapon Attacks</h4>
+            <p>The cost of Stamina when attacking with a weapon depends on the weapon's type. The cost to use a weapon is generally directly related to its size unless an alternate, or additional, cost or effect is specified in the weapon's description.</p>
+            <p>For a list of weapon information, <a href="../05_glossary/glossary_pages/glossary-weapons.html#weapons">click here</a>.</p>
+            <p>Weapon attacks can also be empowered by making a <a href="../05_glossary/glossary_pages/glossary-terms.html#vigorous_strike">Vigorous Strike</a> or an <a href="../05_glossary/glossary_pages/glossary-terms.html#empowered_strike">Empowered Strike</a>.</p>
+            <h4>Magic Attacks</h4>
+            <p>Spells and miracles cost both Psyche and Stamina to cast. The cost varies, but is generally dictated by the strength of the effect and the number of targets.</p>
+            <p>For a list of miracles, including costs and requirements, <a href="../05_glossary/glossary_pages/glossary-miracles.html#miracles">click here</a>.</p>
+            <p>For a list of spells, including costs and requirements, <a href="../05_glossary/glossary_pages/glossary-spells.html#spells">click here</a>.</p>
+            <h4>Other Actions</h4>
+            <p>The cost of Stamina when interacting with an object is generally 1 point, unless determined otherwise by the GM. Players may determine they wish to do something unusual with their turn, and may discuss the Stamina cost with the GM.</p>
+        </section>
+
+        <section class="main-section card" id="conditions">
+            <h3>Conditions</h3>
+            <p>There are both physical and non-physical conditions. When an enemy attempts to apply a condition, players will make an <a href="../05_glossary/glossary_pages/glossary-terms.html#resist_roll">Resist Roll</a> using the appropriate modifier: Resilience for physical conditions and Will for non-physical ones.</p>
+            <p>If the result of this roll is higher than the amount of damage they receive that round, then they do not receive the condition, but if they roll below their damage received, then they receive the condition and are affected in the following rounds according to the Conditions list, <a href="../05_glossary/glossary_pages/glossary-conditions.html#conditions">found here</a>.</p>
+            <h4>Mitigating Conditions</h4>
+            <p>If a character is under the effect of a condition that deals recurring damage, and the player wishes to reduce the damage for a round, they can do so by spending Psyche. At the end of the round, the affected player may spend 1 point of Psyche to reduce the recurring condition effect damage by their Resilience or Will modifier amount (minimum of 1). Resilience applies to physical effects, while Will applies to nonphysical ones.</p>
+            <p>Mitigating an effect does not remove the condition, it only reduces the amount of damage received for that turn, or if it is not a damaging condition, then the effect is ignored for that turn. The character must still be healed from the condition order to remove it completely.</p>
+            <sub style="font-style: italic;">[Example 2.0]<br>John is hit with a venomous attack, and is poisoned. His Resilience modifier is 3, and he is poisoned for 4 points of damage per round. He will take the initial poison damage on his turn, but at the end of the round, he may spend 1 point of Psyche to reduce the poison damage by 3 (from 4 damage to 1).</sub>
+        </section>
+
+        <section class="main-section card" id="fleeing">
+            <h3>Fleeing</h3>
+            <p>Players may choose to flee combat for any number of reasons. On the party's turn, any player may declare that they wish to attempt to flee as their action. Fleeing players will then roll a Dexterity Check with a Difficulty Modifier set according to the GM's discretion. This modifier may take into account location, number of enemies, environmental effects, and enemy abilities.</p>
+            <p>A character who successfully flees is no longer included in Damage Rolls, and may not make attacks on the enemy party they have fled from. They are removed from combat.</p>
+        </section>
+    </main>
+
+    <footer>
+        <a style="padding: 1rem; align-items: center;" href="../00_pilgrims-home/pilgrims-home.html">Pilgrims Home</a>
+    </footer>
+</body>
+</html>
