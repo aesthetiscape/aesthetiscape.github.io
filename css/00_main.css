@@ -51,6 +51,7 @@
 
 html, body {
     scroll-behavior: smooth;
+    height: 100dvh;
 }
 
 body {
