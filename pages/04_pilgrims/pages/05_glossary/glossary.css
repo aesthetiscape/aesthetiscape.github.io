@@ -1,3 +1,15 @@
 .conditions {
     justify-content: space-around;
 }
+
+.vitality {
+    background-color: lightcoral;
+}
+
+.stamina {
+    background-color: lightgoldenrodyellow;
+}
+
+.psyche {
+    background-color: cornflowerblue;
+}
