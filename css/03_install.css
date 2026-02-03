@@ -15,7 +15,10 @@ div.gallery p {
     border-style: inset;
 }
 
-#draggable {
-    position: fixed;
-    cursor:grab; 
+.twoColumn {
+    max-width: 45%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 1rem;
 }
